@@ -1,0 +1,390 @@
+@media only screen and (max-width:1330px) {
+    .aboutone {
+        /* border: 2px solid red; */
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        /* text-align: center; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 40%;
+    }
+
+    .abouttwo {
+        /* border: 2px solid red; */
+        /* margin-left: 40px; */
+        text-align: center;
+        width: 60%;
+        margin-left: 30px;
+        display: grid;
+        /* align-items: center; */
+        justify-content: center;
+        /* padding: 10px; */
+    }
+
+    .imagedono {
+        height: 400px;
+        /* width: 110%; */
+        /* zoom: -20%; */
+
+    }
+
+    .aboutborder {
+
+        border: 2px solid rgb(0, 163, 139);
+        height: 45vh;
+        width: 75%;
+        /* justify-content: center; */
+    }
+
+    .twopara {
+        /* border: 1px solid yellow; */
+        font-size: small;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .onepart {
+        /* border: 1px solid red; */
+        /* padding-top: 13vh; */
+        margin-top: -40px;
+
+        /* margin-bottom: -20vh; */
+
+    }
+
+    .people {
+
+        margin-top: 50px;
+        /* border: 3px solid red; */
+        height: 50vh;
+        display: grid;
+        justify-content: center;
+        /* text-align: center; */
+        /* text-align: center; */
+        grid-column-gap: 30px;
+        grid-template-columns: 30% 30% 30%;
+        margin: 50px;
+    }
+
+    .aboutname {
+        font-size: 25px;
+    }
+
+    .onepara {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:1160px) {
+    .aboutone {
+        /* border: 2px solid red; */
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        /* text-align: center; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 40%;
+    }
+
+    .people {
+
+        margin-top: 50px;
+        /* border: 3px solid red; */
+        height: 50vh;
+        display: grid;
+        justify-content: center;
+        /* text-align: center; */
+        /* text-align: center; */
+        grid-column-gap: 30px;
+        grid-template-columns: 30% 30% 30%;
+        margin: 50px;
+    }
+
+    .abouttwo {
+        /* border: 2px solid red; */
+        /* margin-left: 40px; */
+        text-align: center;
+        width: 60%;
+        margin-left: 30px;
+        display: grid;
+        /* align-items: center; */
+        justify-content: center;
+        /* padding: 10px; */
+    }
+
+    .imagedono {
+        height: 350px;
+        /* width: 110%; */
+        zoom: -20%;
+
+    }
+
+    .aboutborder {
+
+        border: 2px solid rgb(0, 163, 139);
+        height: 45vh;
+        width: 70%;
+        /* justify-content: center; */
+    }
+
+    .twopara {
+        /* border: 1px solid yellow; */
+        font-size: small;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .onepart {
+        /* border: 1px solid red; */
+        /* padding-top: 13vh; */
+        margin-top: -50px;
+
+        /* margin-bottom: -20vh; */
+
+    }
+
+    .paragraphfor {
+        font-size: medium;
+    }
+
+    .onepara {
+        font-size: 10px;
+    }
+
+    .info {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1022px) {
+    .dropdown {
+        display: inline;
+        margin-top: 20px;
+        margin-left: 500px;
+    }
+
+    .navtwo {
+        display: none;
+    }
+}
+
+/* 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 */
+@media only screen and (max-width:1010px) {
+    .aboutborder {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        display: flex;
+        /* margin: 100px; */
+        border: 2px solid rgb(0, 163, 139);
+        height: 55vh;
+        /* justify-content: center; */
+    }
+
+    .aboutone {
+        /* border: 2px solid red; */
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        /* text-align: center; */
+        /* margin-left: auto;
+    margin-right: auto; */
+        width: 50%;
+    }
+
+    .aboutname {
+        font-size: 30px;
+    }
+
+    .imagedono {
+        width: 110%;
+        height: 490px;
+    }
+
+    .abouttwo {
+        /* border: 2px solid red; */
+        /* margin-left: 40px; */
+        text-align: center;
+        width: 50%;
+        display: grid;
+        /* align-items: center; */
+        justify-content: center;
+        /* padding: 10px; */
+    }
+
+    .paragraphfor {
+        font-size: small;
+    }
+
+    .onepara {
+        font-size: 10px;
+    }
+
+    .map {
+        width: 100%;
+        /* background-color: gr; */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        /* border: 3px dashed orange; */
+    }
+
+    .hmm {
+        color: rgb(0, 163, 139);
+        font-size: 40px;
+        margin: 20px;
+
+    }
+
+    .dropdown {
+        display: inline;
+        margin-top: 20px;
+        margin-left: 500px;
+    }
+
+    .navtwo {
+        display: none;
+    }
+
+    .serviceparttwo {
+        /* border: 6px solid red; */
+        /* width: 200%; */
+        height: 50vh;
+        display: grid;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        width: 85%;
+        grid-gap: 45px;
+        grid-template-columns: 45% 45%;
+        /* grid-template-columns: 100%; */
+        /* border: 3px dashed blue; */
+    }
+}
+
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+
+@media only screen and (max-width:900px) {
+    .dropdown {
+        display: inline;
+        margin-top: 20px;
+        margin-left: 450px;
+    }
+
+    .aboutborder {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        display: flex;
+        /* margin: 100px; */
+        border: 2px solid rgb(0, 163, 139);
+        height: 50vh;
+        /* justify-content: center; */
+    }
+
+    .imagedono {
+        width: 110%;
+        height: 400px;
+    }
+
+    .centercenter {
+        width: auto;
+        font-family: fantasy;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 0px;
+        /* height: 20vh; */
+        /* border: 3px solid pink; */
+    }
+
+    .center {
+        /* border: 2px ridge blue; */
+        height: 34.1vh;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        grid-gap: 10px;
+        /* background-color: #fff; */
+        animation-timing-function: 3s;
+
+    }
+
+    .centerone {
+        width: 50px;
+        height: 10vh;
+        /* border: 3px 3px 3px 0px, solid pink; */
+        border-left: 2px solid rgb(0, 163, 139);
+        border-top: 2px solid rgb(0, 163, 139);
+        border-bottom: 2px solid rgb(0, 163, 139);
+    }
+
+    .centerthree {
+        width: 50px;
+        height: 10vh;
+        /* border: 3px 3px 3px 0px, solid pink; */
+        border-right: 2px solid rgb(0, 163, 139);
+        border-top: 2px solid rgb(0, 163, 139);
+        border-bottom: 2px solid rgb(0, 163, 139);
+    }
+
+    .servicearea {
+        margin-bottom: 30vh;
+    }
+
+    .serviceparttwo {
+        /* border: 6px solid red; */
+        /* width: 200%; */
+        /* height: 60vh; */
+        display: grid;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        width: 85%;
+        grid-gap: 45px;
+        grid-template-columns: 100%;
+        /* grid-template-columns: 100%; */
+        /* border: 3px dashed blue; */
+    }
+
+    .hmm {
+        color: rgb(0, 163, 139);
+        font-size: 60px;
+        margin: 20px;
+
+    }
+
+    .paragraphfor {
+        font-size: large;
+    }
+
+    .parttwoone {
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: 35% 35%;
+        grid-gap: 50px;
+        justify-content: center;
+    }
+
+    .people {
+
+        margin-top: 50px;
+        /* border: 3px solid red; */
+        height: 50vh;
+        display: grid;
+        justify-content: center;
+        /* text-align: center; */
+        /* text-align: center; */
+        grid-column-gap: 30px;
+        grid-template-columns: 30% 30% 30%;
+        margin: 50px;
+    }
+}
