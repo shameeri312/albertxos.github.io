@@ -1,3 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Public Sans', sans-serif;
+    /* text-align: center; */
+}
+
 @media only screen and (max-width:1330px) {
     .aboutone {
         /* border: 2px solid red; */
@@ -603,7 +610,7 @@
     /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
     .people {
         margin-top: 50px;
-        border: 3px solid red;
+        /* border: 3px solid red; */
         height: auto;
         display: block;
 
@@ -733,5 +740,11 @@
         /* display: i; */
         height: 10vh;
         /* width: 50%; */
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .portfolio {
+        margin-top: 150px;
     }
 }
