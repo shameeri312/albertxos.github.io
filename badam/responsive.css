@@ -163,8 +163,7 @@
 @media only screen and (max-width:1022px) {
     .dropdown {
         display: inline;
-        margin-top: 20px;
-        margin-left: 500px;
+
     }
 
     .navtwo {
@@ -243,8 +242,7 @@
 
     .dropdown {
         display: inline;
-        margin-top: 20px;
-        margin-left: 500px;
+
     }
 
     .navtwo {
@@ -273,8 +271,7 @@
 @media only screen and (max-width:900px) {
     .dropdown {
         display: inline;
-        margin-top: 20px;
-        margin-left: 450px;
+
     }
 
     .aboutborder {
@@ -386,5 +383,348 @@
         grid-column-gap: 30px;
         grid-template-columns: 30% 30% 30%;
         margin: 50px;
+    }
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width:500px) {
+    .header {
+        /* border: 2px solid red; */
+        height: 76vh;
+    }
+
+    .center {
+        /* border: 2px ridge blue; */
+        height: 30.15vh;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        grid-gap: 10px;
+        /* background-color: #fff; */
+        animation-timing-function: 3s;
+
+    }
+
+    .para {
+        font-size: small;
+        /* border: 1px solid red; */
+        margin-top: -20px;
+    }
+
+    .centertwowala {
+        /* border: 2px ridge blue; */
+        height: 16vh;
+        width: 65%;
+    }
+
+    .centerone {
+        width: 20px;
+        height: 5vh;
+        /* border: 3px 3px 3px 0px, solid pink; */
+        border-left: 2px solid rgb(0, 163, 139);
+        border-top: 2px solid rgb(0, 163, 139);
+        border-bottom: 2px solid rgb(0, 163, 139);
+    }
+
+    .centerthree {
+        width: 20px;
+        height: 5vh;
+        /* border: 3px 3px 3px 0px, solid pink; */
+        border-right: 2px solid rgb(0, 163, 139);
+        border-top: 2px solid rgb(0, 163, 139);
+        border-bottom: 2px solid rgb(0, 163, 139);
+    }
+
+    .centercenter {
+        width: auto;
+        /* font-family: fantasy; */
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 0px;
+        /* height: 20vh; */
+        /* border: 3px solid pink; */
+    }
+
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .aboutus {
+        /* border: 3px solid blue; */
+        height: 80vh;
+    }
+
+    .aboutborder {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        display: grid;
+        grid-template-rows: 50vh 50vh;
+        grid-template-columns: 100%;
+        /* margin: 100px; */
+        border: 2px solid rgb(0, 163, 139);
+        height: 80vh;
+        /* justify-content: center; */
+    }
+
+    .aboutus {
+        /* border: 3px dotted red; */
+        height: 100vh;
+
+    }
+
+    .imagedono {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: -10px;
+        top: -20px;
+        /* border: 2px solid red; */
+    }
+
+    .aboutone {
+        /* border: 2px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 50vh;
+
+    }
+
+    .abouttwo {
+        /* border: 2px solid red; */
+
+        /* margin-left: 40px; */
+        text-align: center;
+        width: 100%;
+        /* display: grid; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* padding: 10px; */
+    }
+
+    .aboutname {
+        color: rgb(0, 163, 139);
+        font-size: 20px;
+        /* margin-top: -30px */
+        letter-spacing: -2px;
+        font-weight: bolder;
+        /* height: 5vh; */
+    }
+
+    .onepart {
+        /* border: 1px solid red; */
+        /* margin-top: -30px; */
+        /* border: 1px solid red; */
+        width: 87.5%;
+        height: 30vh;
+        position: relative;
+        left: -5px;
+        top: -30px;
+        /* font-size: 20px; */
+
+    }
+
+    .twopara {
+        /* border: 1px solid yellow; */
+        width: 500px;
+        opacity: 70%;
+        font-size: 10px;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    /* ////////////////////////////////////////////////////////////////////////////////////// */
+    .servicearea {
+        /* margin-top: 200px; */
+        /* border: 2px solid red; */
+        height: 170vh;
+        width: 100%;
+    }
+
+    .servicepartone {
+        /* border: 1px solid red; */
+        height: 20vh;
+        text-align: center;
+    }
+
+    .servicepartone .aboutname {
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+
+    .delete {
+        letter-spacing: -2px;
+    }
+
+    .servepara {
+        font-size: 10px;
+
+    }
+
+    .parttwoone {
+        display: inline;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+    }
+
+    /* ///////////////////////////////////////////////////////////////////////////////////////////// */
+    .portpart a {
+        display: block;
+    }
+
+    .gallery {
+        /* border: 2px solid red; */
+        display: block;
+        width: 100%;
+    }
+
+    .twogallery {
+        /* border: 3px solid red; */
+        width: 100%;
+
+    }
+
+    .onegallery {
+        width: 100%;
+    }
+
+    .loadmore {
+        text-align: center;
+        padding: 7px 40px;
+        font-weight: bold;
+        font-size: 20px;
+        /* outline: none; */
+        border: 2px solid rgb(0, 163, 139);
+        background-color: white;
+        color: rgb(0, 163, 139);
+    }
+
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .people {
+        margin-top: 50px;
+        border: 3px solid red;
+        height: auto;
+        display: block;
+
+
+    }
+
+    .personone {
+
+        height: 50vh;
+
+    }
+
+    .persontwo {
+
+        height: 50vh;
+
+
+    }
+
+    .personone {
+
+        height: 50vh;
+
+
+
+    }
+
+    .logoarea {
+
+        grid-template-columns: 50% 50%;
+
+    }
+
+    /* //////////////////////////////////////////////////////////////////////
+     */
+    /* --------------------------------------------------------------------------FORM--------------------------------------------------------------------- */
+    .form {
+        /* border: 4px dotted orange; */
+        height: 60vh;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 100%;
+
+
+    }
+
+    .formnames {
+        width: 100%;
+        height: 5vh;
+        font-size: small;
+        border: 2px ridge rgba(128, 128, 128, 0.247);
+        outline: none;
+        padding: 10px;
+    }
+
+    .inputnames {
+        /* border: 2px solid rgba(128, 128, 128, 0.247); */
+        width: 100%;
+    }
+
+    .address {
+        /* background-color: rgba(128, 128, 128, 0.071); */
+        /* border: 3px solid red; */
+        height: auto;
+        display: grid;
+
+        width: 100%;
+
+        grid-template-columns: 100%;
+
+    }
+
+    .infoparent {
+        /* border: 2px dashed orange; */
+        display: grid;
+        /* gap: 60px; */
+        column-gap: -20px;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
+
+    .infoparenttwo {
+        /* border: 2px dashed orange; */
+        display: grid;
+        /* gap: 60px; */
+        column-gap: -20px;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
+
+    .info {
+        border: 2px dotted red;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .map {
+
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+
+    .namefoot {
+        /* border: 3px solid red; */
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 10% 10%;
+        grid-template-rows: 5vh 5vh;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background-color: rgb(0, 163, 139);
+        margin-top: -150px;
+        /* text-align: center; */
+        justify-content: center;
+    }
+
+    .end {
+        color: white;
+        display: grid;
+        font-size: 15px;
     }
 }
