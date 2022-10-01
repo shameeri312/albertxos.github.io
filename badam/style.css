@@ -2,12 +2,40 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Public Sans', sans-serif;
+    text-align: center;
 }
 
 .dropdown {
     display: none;
+    height: 10vh;
+    width: 70%;
+    text-align: right;
+    padding-top: 25px;
+    /* border: 2px solid yellow; */
+
 }
 
+.material-symbols-outlined {
+    background-color: rgb(0, 163, 139);
+    border-radius: 5px;
+
+
+    padding: 10px 15px;
+}
+
+.fa-solid {
+    color: aliceblue;
+
+}
+
+.dropdown-menu {
+    width: 145%;
+
+}
+
+.item {
+    border-bottom: 1px solid grey;
+}
 
 
 
@@ -19,14 +47,15 @@
     background-image: linear-gradient(to right, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(./media/slider1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1005;
+    width: 100%;
 }
 
 .navigation {
     /* border: 2px solid red; */
     border-bottom: 1px solid white;
     height: 10vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +79,8 @@
     /* margin-right: -40px; */
     width: 70%;
     height: 10vh;
-
+    /* border: 2px solid yellow; */
+    display: inline;
 
 }
 
@@ -661,4 +691,8 @@ li a :active {
 
 .namefoot a {
     text-decoration: none;
+}
+
+.tad {
+    border: 1px solid red;
 }

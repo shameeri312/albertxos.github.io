@@ -388,7 +388,7 @@
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     .header {
         /* border: 2px solid red; */
         height: 76vh;
@@ -695,7 +695,7 @@
     }
 
     .info {
-        border: 2px dotted red;
+        /* border: 2px dotted red; */
         height: 20vh;
         width: 100%;
         text-align: center;
@@ -726,5 +726,12 @@
         color: white;
         display: grid;
         font-size: 15px;
+    }
+
+    /* ///////////////////////////////////////////////////// */
+    .dropdown {
+        /* display: i; */
+        height: 10vh;
+        /* width: 50%; */
     }
 }
