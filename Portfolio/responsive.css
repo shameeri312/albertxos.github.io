@@ -155,7 +155,7 @@
     header {
 
         background-image: radial-gradient(circle, darkred, rgb(9, 11, 29));
-        border: 8px solid white;
+        /* border: 8px solid white; */
         height: 100vh;
     }
 
