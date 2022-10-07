@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.7s ease;
+}
+
+/* /////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////// */
+header {
+    /* background-color: #104c91; */
+    background-image: radial-gradient(circle, darkred, rgb(9, 11, 29));
+    border: 8px solid white;
+    height: 100vh;
+    /* color: ; */
+}
+
+
+.navbar {
+    margin-top: 5vh;
+    height: 15vh;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px dotted red; */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+
+}
+
+
+
+.navigation {
+
+    display: none;
+
+
+}
+
+.navbartwo {
+    margin-top: 5vh;
+    height: 15vh;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px dotted red; */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+
+}
+
+.partone {
+    /* border: 2px dashed yellow; */
+    height: 13vh;
+    width: auto;
+    margin-left: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.barnav {
+    display: none;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 150px;
+
+}
+
+.photo {
+    margin-top: -3px;
+}
+
+.parttwo {
+    /* border: 2px dashed yellow; */
+    height: 10vh;
+    width: 200px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 70px;
+    position: sticky;
+    top: 10px;
+    padding-top: 13px;
+}
+
+.parttwowala {
+    /* border: 2px dashed yellow; */
+    height: 10vh;
+    width: 200px;
+    display: none;
+    justify-content: right;
+    align-items: center;
+    margin-right: 70px;
+    position: sticky;
+    top: 10px;
+    padding-top: 13px;
+}
+
+.para {
+    width: 50px;
+    font-size: large;
+    margin: 5px;
+    /* border: 0.5px dashed red; */
+
+}
+
+.pagehome {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    text-decoration: none;
+    color: white;
+
+}
+
+.name {
+    position: relative;
+    top: -17px;
+}
+
+.tonew {
+
+    overflow: hidden;
+}
+
+
+/* //////////////////////////////////////////////////HOVER/////////////////////////////////////////////////////////////////////// */
+.para:hover {
+    opacity: 0.7;
+
+}
+
+.pagehome:hover {
+    opacity: 0.5;
+}
+
+.foottwopart a:hover {
+
+    opacity: 1;
+}
+
+.button1:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button2:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contactlink:hover {
+    opacity: 0.5;
+}
+
+.names a:hover {
+    opacity: 0.5;
+    margin-left: 15px;
+
+}
+
+/* ////////////////////////////////////////////////////////CENTER DESCRIOYOPM///////////////////////////////////////////////////// */
+.descript {
+    /* border: 2px dashed darkgoldenrod; */
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.smal {
+    opacity: 0.5;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.heading {
+    padding-top: 15px;
+    color: white;
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.based {
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: bold; */
+}
+
+.des {
+    color: rgb(50, 180, 231);
+}
+
+.dest {
+    color: crimson;
+
+}
+
+.botons {
+    /* border: 2px solid red; */
+    height: auto;
+    margin-top: 8vh;
+    text-align: center;
+
+}
+
+.button1 {
+    padding: 1em 3.5em;
+    border: 2px solid rgb(50, 180, 231);
+    /* paddi-top: 10px; */
+    margin: 10px;
+    color: white;
+    font-size: 17px;
+    transform: skew(20deg);
+    text-decoration: none;
+    background-color: rgb(50, 180, 231);
+
+
+
+
+}
+
+.button2 {
+    padding: 1em 3.5em;
+    border: 1px solid white;
+    /* paddi-top: 10px; */
+    margin: 10px;
+    color: white;
+    font-size: 17px;
+    transform: skew(20deg);
+    text-decoration: none;
+}
+
+/* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
+/* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
+/* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
+/* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
+/* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
+.line {
+    text-decoration: none;
+    background-color: rgb(50, 180, 231);
+    color: white;
+    padding: 15px 20px;
+    margin-left: -30px;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+
+.lo {
+    width: auto;
+
+
+}
+
+.fa-solid {
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+
+}
+
+.lists {
+    /* border: 1px solid red; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 60px;
+}
+
+.listone {
+    /* border: 3px solid yellowgreen; */
+    /* text-align: center; */
+    /* margin-left: 50px; */
+}
+
+ul {
+    margin-left: 80px;
+
+}
+
+.names a {
+    line-height: 100px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    transform: scale(1);
+}
+
+
+
+h3 {
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.contactlink {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.contacttwo {
+    margin-top: 170px;
+}
+
+.footer {
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+
+.shop {
+    color: palegreen;
+    font-size: 20px;
+}
+
+.footonepart {
+    /* border: 3px solid rebeccapurple; */
+    margin-left: 70px;
+}
+
+.foottwopart {
+    /* border: 3px solid rebeccapurple; */
+    margin-right: 50px;
+}
+
+.foottwopart a {
+    /* border: 3px solid rebeccapurple; */
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+
+}
