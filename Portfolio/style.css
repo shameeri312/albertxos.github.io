@@ -5,6 +5,10 @@
     transition: all 0.2s ease;
 }
 
+* a {
+    text-decoration: none;
+}
+
 /* /////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////// */
 header {
     /* background-color: #104c91; */
@@ -132,6 +136,9 @@ header {
     overflow: hidden;
 }
 
+.pagehome {
+    color: white;
+}
 
 /* //////////////////////////////////////////////////HOVER/////////////////////////////////////////////////////////////////////// */
 .para:hover {
@@ -148,10 +155,11 @@ header {
     opacity: 1;
 }
 
-.button11:hover {
-    color: white;
-    background-color: black;
+.buttonone:hover {
+    color: black;
+    background-color: transparent;
     transition: background-color 0.3s ease-in-out;
+    border: 2px solid black;
 }
 
 .button1:hover {
@@ -255,9 +263,10 @@ header {
 .buttonone {
     padding: 0.6em 2.5em;
     font-size: 22px;
+    color: white;
     transform: skew(20deg);
     text-decoration: none;
-    /* background-color: rgb(50, 180, 231); */
+    background-color: black;
 }
 
 .scrol {
