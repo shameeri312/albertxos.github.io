@@ -30,6 +30,58 @@
         font-size: 17px;
 
     }
+
+    .findwork {
+        margin-top: 13vh;
+        width: 100%;
+
+        grid-template-columns: 50% 50%;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width:1110px) {
+    .works {
+        /* border: 1px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(50, 180, 231);
+        width: 80%;
+        height: 60vh;
+    }
+
+    .worktwo {
+        /* border: 1px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: crimson;
+        width: 80%;
+        height: 60vh;
+    }
+
+    .works h6,
+    .worktwo h6 {
+        margin-top: 12vh;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .works h2,
+    .worktwo h2 {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .worknames {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width:1070px) {
@@ -51,6 +103,68 @@
         margin-top: 25px;
         font-size: 15px;
     }
+}
+
+@media only screen and (max-width:1070px) {
+    .findwork {
+        margin-top: 13vh;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+
+    .works {
+        /* border: 1px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        background-color: rgb(50, 180, 231);
+        width: 80%;
+        height: auto;
+        padding-left: 3em;
+    }
+
+    .worktwo {
+        /* border: 1px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        background-color: crimson;
+        width: 80%;
+        height: auto;
+        padding-left: 3em;
+    }
+
+    .works h6,
+    .worktwo h6 {
+        margin-top: 5vh;
+        color: white;
+        font-size: 15px;
+        text-align: left;
+        padding: 1em;
+    }
+
+    .works h2,
+    .worktwo h2 {
+
+        margin-top: 10px;
+        text-align: left;
+        font-size: 35px;
+
+    }
+
+    .worknames {
+        text-align: left;
+
+        margin-top: 10px;
+        /* border: 2px dashed yellow; */
+        width: 100%;
+
+    }
+
+
 }
 
 @media only screen and (max-width:960px) {
@@ -380,6 +494,70 @@
         margin-left: 8px;
         text-align: left;
 
+    }
+
+    .findwork {
+        grid-template-columns: 100%;
+
+    }
+
+    .serviceheader {
+        font-size: 30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .servicepara {
+        /* font-size: 30px; */
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .works h6,
+    .worktwo h6 {
+        margin-top: 1px;
+        color: white;
+        font-size: 12px;
+
+        padding: .1em;
+    }
+
+    .works h2,
+    .worktwo h2 {
+        margin-top: 30px;
+
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .works {
+        height: auto;
+        padding-top: 1em;
+        padding-left: 1em;
+    }
+
+    .worktwo {
+        height: auto;
+        padding-top: 1em;
+        padding-left: 1em;
+    }
+
+    .worknames {
+
+        font-size: 12px;
+        margin-top: 10px;
+        /* border: 2px dashed yellow; */
+        width: 100%;
+    }
+
+
+
+    .butonon {
+
+        display: none;
     }
 }
 
