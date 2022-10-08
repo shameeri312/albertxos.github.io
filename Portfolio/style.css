@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    transition: all 0.7s ease;
+    transition: all 0.2s ease;
 }
 
 /* /////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////// */
@@ -115,12 +115,12 @@ header {
 
 }
 
-.pagehome {
-    /* font-family: 'Josefin Sans', sans-serif; */
-    text-decoration: none;
+.parag a {
+    font-size: 20px;
     color: white;
-
 }
+
+
 
 .name {
     position: relative;
@@ -146,6 +146,12 @@ header {
 .foottwopart a:hover {
 
     opacity: 1;
+}
+
+.button11:hover {
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .button1:hover {
@@ -227,15 +233,11 @@ header {
     transform: skew(20deg);
     text-decoration: none;
     background-color: rgb(50, 180, 231);
-
-
-
-
 }
 
 .button2 {
     padding: 1em 3.5em;
-    border: 1px solid white;
+    border: 2px solid white;
     /* paddi-top: 10px; */
     margin: 10px;
     color: white;
@@ -244,9 +246,355 @@ header {
     text-decoration: none;
 }
 
+.botun {
+    margin-top: 10vh;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.buttonone {
+    padding: 0.6em 2.5em;
+    font-size: 22px;
+    transform: skew(20deg);
+    text-decoration: none;
+    /* background-color: rgb(50, 180, 231); */
+}
+
+.scrol {
+    display: none;
+}
+
+/* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
+/* ///////////////////////////////////// */
+
+
+
+.serviceheader {
+    font-size: 45px;
+    text-align: center;
+}
+
+.servicepara {
+    margin-top: 30px;
+    font-size: 18px;
+    opacity: 0.8;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-weight: lighter;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    /* border: 1px double red; */
+    width: 40%;
+}
+
+.services {
+    margin-top: 100px;
+    /* border: 3px solid coral; */
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servicelinks {
+    /* border: 2px solid green; */
+    background-color: rgba(128, 128, 128, 0.11);
+    width: 350px;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+
+}
+
+.srvcnames {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+.serviceinfo {
+    font-size: 17px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.servicelinks:hover {
+    background-color: crimson;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transition-property: background-color;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
 /* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
-/* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
+
+/* MENU PAGE */
+
 /* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
 /* //////////////////////////////////////ssssssssssssssssssssssssssssssssssssssssssssssssssssss/////////////////////////////////////////////////////// */
 .line {
