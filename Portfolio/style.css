@@ -5,6 +5,10 @@
     transition: all 0.2s ease;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * a {
     text-decoration: none;
 }
@@ -14,7 +18,7 @@ header {
     /* background-color: #104c91; */
     background-image: radial-gradient(circle, darkred, rgb(9, 11, 29));
     border: 8px solid white;
-    height: 100vh;
+    height: 98vh;
     /* color: ; */
 }
 
@@ -323,7 +327,7 @@ header {
 }
 
 .srvcnames {
-    font-size: 22px;
+    font-size: 30px;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -403,7 +407,7 @@ header {
 .worktwo h2 {
     margin-top: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bolder;
     color: white;
 }
@@ -436,6 +440,242 @@ header {
     border: 2px solid black;
     color: black;
 }
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.portfolio {
+    /* border: 2px solid red; */
+    background-color: rgba(128, 128, 128, 0.089);
+    height: auto;
+    margin-top: 10vh;
+}
+
+
+
+.firstheading {
+    padding-top: 10vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    display: flex;
+
+    /* border: 1px solid red; */
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: bold;
+    justify-content: center
+}
+
+.portinfo .head1 {
+    /* border: 1px solid red; */
+    width: 60%;
+    opacity: 0.85;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+.portinfo .para134 {
+    /* border: 1px solid red; */
+    width: 40%;
+    opacity: 0.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.widthwali {
+
+    width: 70%;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 80vh;
+    gap: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: crimson;
+    border-radius: 120px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-top: 10vh;
+}
+
+.app1 {
+
+    /* border: 2px solid red; */
+    text-align: center;
+    height: auto;
+    /* background-color: crimson; */
+
+
+}
+
+.app1 h1 {
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 50px;
+    text-align: left;
+    color: white;
+}
+
+.app1 p {
+    color: white;
+    opacity: 0.7;
+    padding-left: 5em;
+    text-align: left;
+    width: 75%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.app2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-image: url(https://preview.uideck.com/items/spark/assets/images/hero/hero-image.png);
+}
+
+.app2 {
+    /* border: 2px solid red; */
+    text-align: center;
+    height: 70vh;
+
+    /* background-color: crimson; */
+
+}
+
+.reviews {
+    margin-top: 6vh;
+    /* border: 3px dashed orange; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.review1 .nameicon {
+    color: rgb(255, 230, 0);
+    font-size: 25px;
+
+}
+
+.newone {
+    display: none;
+}
+
+.review1 {
+    padding-top: 1.5em;
+    padding-left: 1em;
+    height: 300px;
+    /* border: 3px solid crimson; */
+    font-size: 30px;
+    background-color: rgb(187, 0, 37);
+    color: white;
+    border-top: 5px inset rgba(139, 0, 0, 0.459);
+    border-left: 5px inset rgba(139, 0, 0, 0.507);
+
+    border-bottom-right-radius: 30%;
+    /* border-bottom-left-radius: 30%; */
+    box-shadow:
+        16px 16px 26px rgba(0, 0, 0, 0.83);
+}
+
+.rate {
+    font-size: 15px;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////SERVICES/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.stickybar {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    background-color: rgba(128, 128, 128, 0.171);
+    /* position: absolute; */
+
+
+}
+
+.stickybar a {
+    color: black;
+    margin: 30px;
+
+    border: 2px solid black;
+
+    padding: 10px 15px;
+    font-size: 20px;
+
+}
+
+.stickybar a:hover {
+    color: crimson;
+    background-color: black;
+    color: white;
+}
+
+.sma {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.servicesarea {
+    margin-top: -9px;
+    border: 5px solid orange;
+    height: 300vh;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ///////////////////////// */
 .footarea {

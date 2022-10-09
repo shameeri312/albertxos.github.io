@@ -20,6 +20,48 @@
         margin-left: 25px;
         font-size: 18px;
     }
+
+    .review1 {
+        font-size: 25px;
+    }
+
+    .portinfo .head1 {
+        /* border: 1px solid red; */
+        width: 80%;
+
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width:1260px) {
+    .app1 p {
+
+        font-size: 20px;
+
+    }
+
+    .review1 {
+        padding-top: 1em;
+        padding-left: 1em;
+        height: 300px;
+        font-size: 29px;
+    }
+
+    .app {
+
+        width: 95%;
+    }
+
+    .reviews {
+
+        width: 100%;
+
+    }
+
+    .portinfo .para134 {
+        opacity: 0.8;
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -82,6 +124,17 @@
     .worknames {
         font-size: 15px;
     }
+
+    .app1 h1 {
+        font-size: 40px;
+    }
+
+    .review1 {
+        padding-top: 1em;
+        padding-left: 1em;
+        height: 270px;
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width:1070px) {
@@ -103,9 +156,12 @@
         margin-top: 25px;
         font-size: 15px;
     }
-}
 
-@media only screen and (max-width:1070px) {
+    .widthwali {
+        padding-top: 50px;
+        width: 70%;
+    }
+
     .findwork {
         margin-top: 13vh;
         width: 100%;
@@ -167,10 +223,15 @@
 
 }
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:970px) {
     .heading {
         font-size: 70px;
         line-height: 80px;
+    }
+
+    .portfolio .head1 {
+
+        font-size: 40px;
     }
 
     .based {
@@ -195,7 +256,31 @@
         width: 60%;
     }
 
+    .reviews {
+        margin-top: 6vh;
+        /* border: 3px dashed orange; */
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        row-gap: 40px;
+    }
 
+    .review1 {
+        padding-top: 1em;
+        padding-left: 1em;
+        height: auto;
+        /* border: 3px solid crimson; */
+        font-size: 35px;
+        border-bottom-right-radius: 100px;
+
+    }
+
+    .rate {
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -239,7 +324,54 @@
         margin-left: 15px;
         font-size: 15px;
     }
+
+    .app {
+        width: 70%;
+        grid-template-columns: 100%;
+        height: auto;
+        row-gap: 0px;
+    }
+
+
+    .app2 {
+        background-image: url(https://preview.uideck.com/items/spark/assets/images/hero/hero-image.png);
+        /* border: 1px solid red; */
+        text-align: center;
+        width: 66%;
+        height: 88vh;
+        background-size: contain;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+    }
+
+    .portinfo .para134 {
+
+        width: 90%;
+    }
+
+    .app1 p {
+        display: none;
+    }
+
+    .app1 h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    .newone {
+        display: block;
+    }
 }
+
+.widthwali {
+
+    width: 50%;
+}
+
 
 
 
@@ -330,7 +462,22 @@
         text-align: center;
     }
 
+    .app {
+        width: 90%;
 
+    }
+
+    .app2 {
+        background-image: url(https://preview.uideck.com/items/spark/assets/images/hero/hero-image.png);
+        /* border: 1px solid red; */
+        text-align: center;
+        width: 80%;
+        height: 100vh;
+        background-size: contain;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+    }
 
     .servicelinks {
         width: 300px;
@@ -559,6 +706,22 @@
 
         display: none;
     }
+
+    .app {
+        border-top: 5px inset darkred;
+        height: 80vh;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    .app1 h1 {
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+
+    }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -590,7 +753,19 @@
 
     }
 
+    .scrol a {
+        text-decoration: none;
+        color: white;
+    }
 
+    .portinfo .head1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .portinfo .para134 {
+        font-size: 15px;
+    }
 
     .material-symbols-outlined {
 
@@ -705,3 +880,7 @@
         background-color: black;
     }
 }
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
