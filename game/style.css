@@ -88,6 +88,38 @@ h1 {
   transition: all 0.5s;
   overflow: hidden;
 }
+.collect {
+  border: 2px solid crimson;
+  padding: 0.5em 1em;
+
+  background-color: crimson;
+  animation-name: animate2;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  transition: all 0.5s;
+  display: none;
+}
+@keyframes animate2 {
+  0% {
+    background-color: orange;
+    border: 6px double orange;
+  }
+  50% {
+    background-color: rgb(250, 0, 0);
+    border: 6px double crimson;
+  }
+  100% {
+    background-color: orange;
+    border: 6px double orange;
+  }
+}
+
+.collect a {
+  text-decoration: none;
+  font-family: "Secular One", sans-serif;
+  font-weight: 600;
+  color: white;
+}
 @keyframes animate {
   0% {
     color: goldenrod;

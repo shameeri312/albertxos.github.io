@@ -15,6 +15,7 @@ document.querySelector(".btn").addEventListener("click", function () {
         document.querySelector(".body").style.backgroundColor = "crimson"
         document.querySelector("h1").style.color = "crimson"
         document.querySelector(".image").style.display = "block"
+        document.querySelector(".collect").style.display = "block"
 
     }
     else if (guess > num) {
