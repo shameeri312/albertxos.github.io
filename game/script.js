@@ -11,7 +11,7 @@ document.querySelector(".btn").addEventListener("click", function () {
         document.querySelector(".result").textContent = "Your answer is correct"
         // document.querySelector(".score").textContent = ` answer ${num}`
         document.querySelector(".val").textContent = score
-        document.querySelector(".score").textContent = ""
+
         document.querySelector(".body").style.backgroundColor = "crimson"
         document.querySelector("h1").style.color = "crimson"
         document.querySelector(".image").style.display = "block"
