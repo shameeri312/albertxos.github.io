@@ -11,6 +11,7 @@ document.querySelector(".btn").addEventListener("click", function () {
         document.querySelector(".result").textContent = "Your answer is correct"
         // document.querySelector(".score").textContent = ` answer ${num}`
         document.querySelector(".val").textContent = score
+        document.querySelector(".score").textContent = ""
         document.querySelector(".body").style.backgroundColor = "crimson"
         document.querySelector("h1").style.color = "crimson"
         document.querySelector(".image").style.display = "block"
@@ -21,7 +22,7 @@ document.querySelector(".btn").addEventListener("click", function () {
         score--;
         document.querySelector(".result").textContent = ` The number is less than 
              ${guess}`
-        document.querySelector(".score").textContent = "(WRONG NUMBER)"
+        // document.querySelector(".score").textContent = "(WRONG NUMBER)"
         document.querySelector(".body").style.backgroundColor = "goldenrod"
         document.querySelector("h1").style.color = "goldenrod"
 
@@ -31,7 +32,7 @@ document.querySelector(".btn").addEventListener("click", function () {
         tries++;
         score--;
         document.querySelector(".result").textContent = `The number is greater than  ${guess}`
-        document.querySelector(".score").textContent = "(WRONG NUMBER)"
+        // document.querySelector(".score").textContent = "(WRONG NUMBER)"
         document.querySelector(".body").style.backgroundColor = "goldenrod"
         document.querySelector("h1").style.color = "goldenrod"
 
