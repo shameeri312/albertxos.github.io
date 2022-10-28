@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 1------------------------------------ */
+body {
+  /* background: linear-gradient(to bottom, sandybrown, white); */
+  background-color: rgb(0, 123, 115);
+  background-repeat: no-repeat;
+}
+.main {
+  text-align: center;
+  width: 350px;
+  height: auto;
+  border-radius: 55px;
+  padding-top: 1rem;
+  background: linear-gradient(to bottom, white, white);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  /* border: 1px solid red; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "Secular One", sans-serif;
+  color: gray;
+  font-size: 30px;
+  /* display: inline; */
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  /* font-weight: 900; */
+}
+.guess {
+  border: 0px solid red;
+  outline: 0px solid red;
+  border-radius: 20px;
+  /* width: 80px; */
+  padding: 1em 0.9em 1em 1em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-weight: 700;
+  font-family: "Secular One", sans-serif;
+}
+.btn {
+  margin-left: 20px;
+  box-shadow: rgba(0, 96, 86, 0.371) 0px 2px 4px,
+    rgba(0, 96, 86, 0.371) 0px 7px 13px -3px,
+    rgba(0, 96, 86, 0.335) 0px -3px 0px inset;
+  padding: 1em;
+  background-color: crimson;
+  border: 0px solid red;
+  color: white;
+  border-radius: 20px;
+}
+.headi {
+  display: block;
+  text-align: left;
+  margin-left: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  color: darkcyan;
+}
+
+.answer {
+  color: darkred;
+  font-weight: 600;
+}
+.score {
+  font-family: "Secular One", sans-serif;
+}
+.image {
+  display: none;
+}
+.result {
+  color: crimson;
+  font-size: 20px;
+  font-family: "Secular One", sans-serif;
+  animation-name: animate;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.collect {
+  border: 2px solid crimson;
+  padding: 0.5em 1em;
+
+  background-color: crimson;
+  animation-name: animate2;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  transition: all 0.5s;
+  display: none;
+}
+@keyframes animate2 {
+  0% {
+    background-color: orange;
+    border: 6px double orange;
+  }
+  50% {
+    background-color: rgb(250, 0, 0);
+    border: 6px double crimson;
+  }
+  100% {
+    background-color: orange;
+    border: 6px double orange;
+  }
+}
+
+.collect a {
+  text-decoration: none;
+  font-family: "Secular One", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+@keyframes animate {
+  0% {
+    color: goldenrod;
+  }
+  50% {
+    color: rgb(250, 0, 0);
+  }
+  100% {
+    color: goldenrod;
+  }
+}
