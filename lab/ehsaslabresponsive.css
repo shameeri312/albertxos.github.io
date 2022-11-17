@@ -1,0 +1,17 @@
+@media only screen and (max-width:1035px) {
+    .Ehsaslab-navbar {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .Ehsaslab-sidebar {
+        visibility: visible;
+    }
+
+    #cancel,
+    #btn,
+    #check {
+        visibility: visible;
+    }
+}
