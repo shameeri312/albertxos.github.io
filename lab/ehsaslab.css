@@ -8,7 +8,6 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
 }
 .Ehsaslab-container-fixed .Ehsaslab-menu {
   display: flex;
@@ -16,6 +15,7 @@
   align-items: center;
   background-color: rgb(255, 255, 255);
   gap: 40px;
+  margin-top: 30px;
 }
 .Ehsaslab-container-fixed .Ehsaslab-menu .Ehsaslab-logo {
   width: 25%;
