@@ -1,14 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all .3s;
-    // box-sizing: border-box;
+    overflow-x: hidden;
+
 }
 
-body {
-    object-fit: contain;
-    border: 2px solid orange;
-}
+
 
 $Ehsaslab-text-darkblue: #2D3755;
 $Ehsaslab-text-green: green;
@@ -62,6 +59,7 @@ $Ehsaslab-text-darkgray: #707072;
 
                 .Ehsaslab-nav-link:hover {
                     color: $Ehsaslab-text-darkgray;
+                    transition: all .3s;
                 }
             }
         }
