@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .3s;
+    // box-sizing: border-box;
+}
+
+body {
+    object-fit: contain;
+    border: 2px solid orange;
+}
+
+$Ehsaslab-text-darkblue: #2D3755;
+$Ehsaslab-text-green: green;
+$Ehsaslab-text-darkgray: #707072;
+
+@mixin Ehsaslabflex($direction, $height) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    $direction: flex-direction;
+
+    $height: height;
+}
+
+
+.Ehsaslab-container-fixed {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+
+
+    .Ehsaslab-menu {
+        @include Ehsaslabflex(row, 10vh);
+        background-color: rgb(255, 255, 255);
+        gap: 40px;
+
+        .Ehsaslab-logo {
+            width: 25%;
+            text-align: center;
+        }
+
+        .Ehsaslab-navbar {
+            width: 70%;
+            @include Ehsaslabflex(row, 10vh);
+
+
+
+
+            .Ehsaslab-nav-item {
+                list-style-type: none;
+
+                .Ehsaslab-nav-link {
+                    text-decoration: none;
+                    margin-left: 20px;
+                    color: black;
+                    font-family: 'Times New Roman', Times, serif;
+
+                }
+
+                .Ehsaslab-nav-link:hover {
+                    color: $Ehsaslab-text-darkgray;
+                }
+            }
+        }
+    }
+}
+
+
+
+#cancel,
+#btn,
+#check {
+    visibility: hidden;
+}
+
+.Ehsaslab-sidebar {
+
+    position: fixed;
+    width: 250px;
+    // border: 2px solid red;
+    top: 0px;
+    left: -520px;
+    height: 100%;
+    background: #ffffff;
+    transition: all .5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    .Ehsaslab-nav-item {
+        list-style-type: none;
+        margin: 30px 30px;
+
+        .Ehsaslab-nav-link {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+}
+
+
+
+#check {
+    display: none;
+}
+
+label #btn,
+label #cancel {
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    color: rgb(41, 0, 0);
+    border-radius: 5px;
+    border: 1px solid #262626;
+    margin: -45px 50px;
+    font-size: 25px;
+    background-color: #fff;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    transition: all .5s ease;
+
+}
+
+label #cancel {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#check:checked~label #btn {
+    margin-left: 245px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#check:checked~label #cancel {
+
+    opacity: 1;
+    visibility: visible;
+}
+
+#check:checked~.Ehsaslab-sidebar,
+.sidebar-background {
+    left: 0;
+}
