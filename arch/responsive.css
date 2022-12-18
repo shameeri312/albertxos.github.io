@@ -5,18 +5,21 @@
     font-size: 40px;
   }
 }
+
 @media only screen and (max-width: 1230px) {
   .g-col-6 {
     font-size: 80px;
     line-height: 90px;
   }
 }
+
 @media only screen and (max-width: 990px) {
   .info1 {
     /* padding-top: 1px; */
     color: black;
     font-size: 20px;
   }
+
   .info1desc {
     color: rgb(66, 65, 65);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -24,12 +27,14 @@
     font-size: 10px;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .imagegallery {
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 50px;
   }
+
   @media only screen and (max-width: 770px) {
     .rows {
       /* border: 10px solid red; */
@@ -37,14 +42,17 @@
       /* justify-content: space-around; */
       grid-template-columns: 100%;
     }
+
     .info1 {
       /* padding-top: 1px; */
       color: black;
       font-size: 50px;
     }
+
     .info1desc {
       font-size: 20px;
     }
+
     .homes {
       width: 100%;
       display: inline;
@@ -58,9 +66,11 @@
 
     line-height: 80px;
   }
+
   .header-text {
     width: 100%;
   }
+
   .homepic {
     width: 90%;
   }
@@ -73,20 +83,24 @@
     width: 100%;
     margin-top: 100px;
   }
+
   .g-col-6 {
     font-size: 60px;
     line-height: 70px;
   }
+
   .header-text:hover {
     border-left: 13px solid black;
     border-top: 13px solid black;
   }
+
   .imagegallery {
     display: grid;
     grid-template-columns: 100%;
     margin: 30px;
   }
 }
+
 @media only screen and (max-width: 450px) {
   .rows {
     /* border: 10px solid red; */
@@ -94,6 +108,19 @@
     justify-content: space-around;
     grid-template-columns: 100%;
   }
+
+  footer {
+    /* border: 1px solid red; */
+    padding: 5.5em 0em;
+
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+
+    justify-content: center;
+    gap: 50px;
+  }
+
   .g-col-6 {
     font-size: 40px;
 
