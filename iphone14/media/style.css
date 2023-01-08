@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .5s ease;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 183, 0);
+
+}
+
+.body {
+    width: 283.5px;
+    border: 10px solid black;
+    height: 607.37px;
+    border-radius: 40pt;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 5px;
+    outline: 4px solid whitesmoke;
+    background-image: url(./media/ios_16_light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.island {
+    width: 100px;
+    height: 27px;
+    border-radius: 50pt;
+    background-color: black;
+}
+
+.swipe {
+    width: 105px;
+    height: 4.5px;
+    background-color: #fff;
+    outline: 0px;
+    border: 0px;
+    border-radius: 1000pt;
+    opacity: .8;
+    /* animation-name: swipUp; */
+    /* -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+    animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+        box-shadow: rgb(210, 210, 210) 0px 20px 30px -10px;
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.torch {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+
+    padding: 10px;
+    transform: translate(-100px, 250px);
+    background-color: rgba(0, 0, 0, 0.2);
+
+    cursor: pointer;
+}
+
+.camera {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 10px;
+    transform: translate(100px, 250px);
+    background-color: rgba(0, 0, 0, 0.2);
+
+    cursor: pointer;
+}
+
+.clock {
+    position: absolute;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    letter-spacing: -4px;
+    transform: translate(-5px, -170px);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#date {
+
+    position: absolute;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transform: translate(0px, -222px);
+    color: rgba(255, 255, 255, 0.8);
+
+
+}
+
+.wifi {
+    position: absolute;
+    border-bottom: 2px solid white;
+    transform: translate(95px, -287px);
+    padding-bottom: 3px;
+}
+
+.signals {
+    color: white;
+    font-size: 10px;
+}
+
+.powerbutton {
+    height: 80px;
+    width: 2px;
+    background-color: rgb(255, 245, 245);
+    border-top-right-radius: 2pt;
+    border-bottom-right-radius: 2pt;
+    border-top: .5px solid grey;
+    border-left: .5px solid grey;
+    border-bottom: .5px solid grey;
+    position: absolute;
+    transform: translate(156px, -70px);
+
+}
+
+.volumeminus {
+    height: 40px;
+    width: 2px;
+    background-color: rgb(255, 245, 245);
+    border-top-right-radius: 2pt;
+    border-bottom-right-radius: 2pt;
+    border-top: .5px solid grey;
+    border-right: .5px solid grey;
+    border-bottom: .5px solid grey;
+    position: absolute;
+    transform: translate(-157px, -110px);
+
+}
+
+.volumeplus {
+    height: 40px;
+    width: 2px;
+    background-color: rgb(255, 245, 245);
+    border-top-right-radius: 2pt;
+    border-bottom-right-radius: 2pt;
+    border-top: .5px solid grey;
+    border-right: .5px solid grey;
+    border-bottom: .5px solid grey;
+    position: absolute;
+    transform: translate(-157px, -60px);
+
+}
+
+.plus {
+    height: 25px;
+    width: 2px;
+    background-color: rgb(255, 245, 245);
+    border-top-right-radius: 2pt;
+    border-bottom-right-radius: 2pt;
+    border-top: .5px solid grey;
+    border-right: .5px solid grey;
+    border-bottom: .5px solid grey;
+    position: absolute;
+    transform: translate(-157px, -170px);
+
+}
