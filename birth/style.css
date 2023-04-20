@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    justify-content: center;
+    border: 10px solid black;
+    border-style: dotted;
+    transition: all 1s ease;
+    animation: animate 5s infinite forwards;
+    background: linear-gradient(to bottom right, rgb(27, 100, 218), rgb(226, 0, 0)5);
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+header h2 {
+    text-align: center;
+    text-decoration: overline;
+}
+
+@keyframes animate {
+    0% {
+        background: linear-gradient(to bottom right, rgb(179, 0, 0), rgb(203, 75, 75));
+        border-color: red;
+    }
+
+    20% {
+        background: linear-gradient(to bottom right, rgb(187, 0, 143), rgba(240, 113, 113, 0.848));
+        border-color: pink;
+    }
+
+    40% {
+        background: linear-gradient(to bottom right, rgb(212, 149, 0), rgba(243, 230, 53, 0.848));
+        border-color: orange;
+    }
+
+    60% {
+        background: linear-gradient(to bottom right, rgb(255, 101, 219), rgba(252, 255, 46, 0.848));
+        border-color: yellow;
+    }
+
+    80% {
+        background: linear-gradient(to bottom right, rgb(0, 128, 187), rgba(240, 113, 113, 0.848));
+        border-color: crimson;
+    }
+
+    100% {
+        background: linear-gradient(to bottom right, rgb(53, 255, 3), rgba(11, 182, 255, 0.848));
+        border-color: blueviolet;
+    }
+}
