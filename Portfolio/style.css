@@ -496,6 +496,7 @@ header {
 
 .app {
     display: grid;
+    align-items: center;
     grid-template-columns: 50% 50%;
     height: 80vh;
     gap: 20px;
