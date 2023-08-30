@@ -6,6 +6,9 @@
 }
 
 @media only screen and (max-width:1330px) {
+    body{
+        overflow-x: hidden;
+    }
     .aboutone {
         /* border: 2px solid red; */
         padding-left: 20px;
