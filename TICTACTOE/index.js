@@ -161,8 +161,9 @@ function gameLogic() {
             } else {
                 winner = value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -174,8 +175,9 @@ function gameLogic() {
             } else {
                 winner = playerB.value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -187,8 +189,9 @@ function gameLogic() {
             } else {
                 winner = playerB.value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -202,8 +205,9 @@ function gameLogic() {
             } else {
                 winner = value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -215,8 +219,9 @@ function gameLogic() {
             } else {
                 winner = playerB.value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -228,8 +233,9 @@ function gameLogic() {
             } else {
                 winner = playerB.value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -243,8 +249,9 @@ function gameLogic() {
             } else {
                 winner = value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -256,8 +263,10 @@ function gameLogic() {
             } else {
                 winner = playerB.value;
             }
-            document.querySelector(".winner").textContent = winner + " won...!";
+            alert(winner + " won!!");
             win = true;
+            alert(winner + " won!!");
+
             playAgain();
         }
     }
@@ -266,7 +275,6 @@ function playAgain() {
     var againButton;
     againButton = document.querySelector(".playagain");
     againButton.style.visibility = "visible";
-
     againButton.addEventListener("click", function () {
         location.reload();
     })
