@@ -190,4 +190,10 @@ a:visited {
   justify-content: space-around;
   align-items: center;
   height: 5vh;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.search-nav .search {
+  display: none;
 }

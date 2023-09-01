@@ -81,6 +81,10 @@
     .mob-view-navbar {
         display: block;
     }
+
+    .search-nav .search {
+        display: block;
+    }
 }
 @media only screen and (max-width: 900px) and (orientation: landscape) {
     header {
@@ -92,6 +96,10 @@
     .search-nav {
         display: flex;
     }
+
+    .search-nav .search {
+        display: block;
+    }
 }
 @media only screen and (max-width: 900px) and (orientation: portrait) {
     header {
@@ -102,6 +110,9 @@
     }
     .search-nav {
         display: flex;
+    }
+    .search-nav .search {
+        display: block;
     }
 }
 @media only screen and (max-width: 360px) {
