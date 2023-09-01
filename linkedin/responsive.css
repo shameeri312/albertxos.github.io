@@ -246,4 +246,8 @@
     .mob-view-navbar .navbar ul .nav-item {
         width: 30px;
     }
+
+    .container .people {
+        margin-top: 10px;
+    }
 }

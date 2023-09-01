@@ -221,9 +221,9 @@ a:visited {
   height: 80vh;
   margin-top: 10vh;
   display: grid;
-  grid-template-columns: 20% 40% 30%;
+  grid-template-columns: 20% 45% 25%;
   justify-content: space-evenly;
-  width: 100%;
+  width: 90%;
 }
 
 .container .profile {
@@ -404,13 +404,96 @@ a:visited {
 .container .posts .recommendations .person .follow-button:hover {
   background-color: #0a66c27a;
 }
+.container .posts .people-posts {
+  height: auto;
+}
 
-.container .people .add-to-feed {
+.container .posts .people-posts .post {
   background-color: #fff;
-  height: 10vh;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container .posts .people-posts .post .info {
+  display: flex;
+}
+.container .posts .people-posts .post .info .profile-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  line-height: -10px;
+}
+.container .posts .people-posts .post .info .profile-info .follower {
+  font-size: 12px;
+}
+.container .posts .people-posts .post .info .post-profile .profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.container .posts .people-posts .post .post-data .post-image {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+.container .posts .people-posts .post .post-data ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.container .posts .people-posts .post .post-data ul li {
+  list-style: none;
+  width: 25%;
+  font-size: 11px;
+}
+.container .people .people-bg {
+  background-color: #fff;
+  height: auto;
+  border-radius: 10px;
+}
+.container .people .add-to-feed {
+  height: auto;
   width: 100%;
   padding: 5px 10px;
   font-weight: 600;
   font-size: 14px;
   border-radius: 10px;
+}
+
+.container .people .peoples {
+  height: auto;
+}
+
+.container .people .peoples .new-person {
+  display: flex;
+  padding: 5px 10px;
+}
+.container .people .peoples .profile-photo .acc-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.container .people .peoples .new-person .account-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.container .people .peoples .new-person .account-info .acc-info {
+  font-size: 12px;
+  color: grey;
+}
+
+.container .people .peoples .new-person .account-info .follow-btn {
+  border-radius: 30px;
+  padding: 7px 2px;
+  font-size: large;
+  margin-top: 5px;
+  background: none;
+  border: 1px solid black;
+  display: block;
+}
+.last-links {
+  text-align: center;
 }
