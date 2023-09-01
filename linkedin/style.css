@@ -50,18 +50,23 @@ header {
   text-decoration: none;
   color: black;
 }
-.first-item .logo span .search {
+.search {
   width: 270px;
   background-color: #edf3f8;
   border: none;
   height: 33px;
-  border-radius: 0px 5px 5px 0;
+  border-radius: 5px;
   padding: 0 5px;
   position: relative;
 }
+
 .first-item .logo span .search:focus {
   width: 350px;
   transition: width 0.5s;
+  border: 1px solid black;
+}
+.search:focus {
+  border: 1px solid black;
   outline: none;
 }
 
@@ -98,7 +103,7 @@ header {
   text-align: center;
   color: black;
 }
-.first-item .navbar ul .nav-item .nav-link .fa-user {
+.fa-user {
   color: aliceblue;
   text-align: center;
   text-align: center;
@@ -180,4 +185,12 @@ header {
 a:visited {
   color: #000000;
   fill: #000000;
+}
+.search-nav {
+  border: 1px solid red;
+  display: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
 }
