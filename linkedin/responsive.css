@@ -8,6 +8,15 @@
     }
 }
 
+@media only screen and (max-width: 1800px) and (orientation: landscape) {
+    header {
+        height: 10vh;
+    }
+    .container {
+        margin-top: 50px;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     header {
         grid-template-columns: 70% 20%;
@@ -215,14 +224,6 @@
         width: 99%;
     }
 }
-@media only screen and (max-width: 1800px) and (orientation: landscape) {
-    header {
-        height: 10vh;
-    }
-    .container {
-        margin-top: 50px;
-    }
-}
 
 @media only screen and (max-width: 400px) and (orientation: portrait) {
     .container .posts .makepost {
@@ -234,6 +235,9 @@
     }
     .search-nav {
         height: 8vh;
+    }
+    .container {
+        width: 100%;
     }
 
     .mob-view-navbar .navbar ul .nav-item {
