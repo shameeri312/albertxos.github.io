@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1800px) {
+    header {
+        grid-template-columns: 65% 15%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    header {
+        grid-template-columns: 70% 20%;
+    }
+}
+@media only screen and (max-width: 1260px) {
+    header {
+        grid-template-columns: 80% 20%;
+    }
+}
+@media only screen and (max-width: 1110px) {
+    header {
+        grid-template-columns: 80% 20%;
+    }
+    .first-item .logo span .search {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    header {
+        padding: 10px 0;
+        grid-template-columns: 70% 25%;
+    }
+    .first-item {
+        justify-content: center;
+    }
+    .first-item .logo span .search {
+        display: none;
+    }
+    .first-item .logo span {
+        background-color: white;
+    }
+    .first-item .logo span .linkbutton .searchname {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .first-item .navbar ul .nav-item {
+        width: 50px;
+        text-align: center;
+        border: none;
+    }
+    .first-item .navbar ul .nav-item .nav-link .nav-name {
+        display: none;
+    }
+    .link .link1 a .linkname {
+        display: none;
+        font-size: 12px;
+    }
+    .link .link1,
+    .link .link2 {
+        margin: 0 10px;
+    }
+    .link .link2 {
+        display: flex;
+        align-items: start;
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+    header {
+        grid-template-columns: auto;
+    }
+    .first-item {
+        border: none;
+    }
+    .link {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .mob-view-navbar {
+        display: block;
+    }
+}
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    header {
+        display: none;
+    }
+    .mob-view-navbar {
+        display: block;
+    }
+}
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+    header {
+        display: none;
+    }
+    .mob-view-navbar {
+        display: block;
+    }
+}
+@media only screen and (max-width: 360px) {
+}
