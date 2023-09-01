@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1800px) {
     header {
-        grid-template-columns: 65% 15%;
+        grid-template-columns: 60% 15%;
     }
     .container {
-        position: static;
-        top: 100px;
+        margin-top: 100px;
+        padding-top: 50px;
     }
 }
 
@@ -90,6 +90,9 @@
         display: flex;
         align-items: start;
         margin: 0 10px;
+    }
+    .container {
+        padding-top: 0px;
     }
 }
 
