@@ -2,18 +2,32 @@
     header {
         grid-template-columns: 65% 15%;
     }
+    .container {
+        position: static;
+        top: 100px;
+    }
 }
+
 @media only screen and (max-width: 1400px) {
     header {
         grid-template-columns: 70% 20%;
     }
 }
+
 @media only screen and (max-width: 1260px) {
     header {
         grid-template-columns: 80% 20%;
         padding: 0 20px;
     }
+    .container .profile .profilepart .info {
+        top: 5px;
+        font-size: 14px;
+    }
+    .container .profile .profilepart .university {
+        font-size: 10px;
+    }
 }
+
 @media only screen and (max-width: 1110px) {
     header {
         grid-template-columns: 80% 20%;
@@ -38,6 +52,11 @@
     }
     .first-item .logo span .linkbutton .searchname {
         display: block;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .container .profile .profilepart {
+        font-size: 10px;
     }
 }
 
@@ -65,6 +84,72 @@
     }
 }
 
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    header {
+        display: none;
+    }
+    .mob-view-navbar {
+        display: block;
+    }
+    .search-nav {
+        display: flex;
+        height: 10vh;
+        position: fixed;
+    }
+
+    .search-nav .search {
+        display: block;
+    }
+    .container {
+        grid-template-columns: auto;
+    }
+    .profile {
+        display: none;
+    }
+    .add-to-feed {
+        display: none;
+    }
+    .container .posts .makepost {
+        margin-top: 20px;
+        padding: 30px 0;
+    }
+    .container .posts .makepost .createpost img {
+        width: 5%;
+    }
+
+    .container .posts .makepost .createpost input {
+        height: 10vh;
+        width: 80%;
+    }
+    .container .posts .recommendations {
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+    header {
+        display: none;
+    }
+    .mob-view-navbar {
+        display: block;
+    }
+    .search-nav {
+        display: flex;
+    }
+    .search-nav .search {
+        display: block;
+    }
+    .container {
+        width: 80%;
+        grid-template-columns: auto;
+    }
+    .add-to-feed {
+        display: none;
+    }
+    .profile {
+        display: none;
+    }
+}
 @media only screen and (max-width: 640px) and (orientation: landscape) {
     header {
         grid-template-columns: auto;
@@ -81,39 +166,77 @@
     .mob-view-navbar {
         display: block;
     }
-
+    .container .posts .makepost {
+        margin-top: 50px;
+        padding: 30px 0;
+    }
     .search-nav .search {
         display: block;
     }
+    .container {
+        grid-template-columns: auto;
+    }
+    .profile {
+        display: none;
+    }
 }
-@media only screen and (max-width: 900px) and (orientation: landscape) {
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+    header {
+        grid-template-columns: auto;
+    }
+    .first-item {
+        border: none;
+    }
+    .link {
+        display: none;
+    }
     header {
         display: none;
     }
     .mob-view-navbar {
         display: block;
     }
-    .search-nav {
-        display: flex;
+    .container .posts .makepost {
+        margin-top: 20px;
+        padding: 30px 0;
     }
-
     .search-nav .search {
         display: block;
     }
-}
-@media only screen and (max-width: 900px) and (orientation: portrait) {
-    header {
+    .container {
+        grid-template-columns: auto;
+    }
+    .profile {
         display: none;
     }
-    .mob-view-navbar {
-        display: block;
-    }
-    .search-nav {
-        display: flex;
-    }
-    .search-nav .search {
-        display: block;
+}
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+    .container {
+        width: 99%;
     }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 1800px) and (orientation: landscape) {
+    header {
+        height: 10vh;
+    }
+    .container {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) and (orientation: portrait) {
+    .container .posts .makepost {
+        margin-top: 20px;
+    }
+    .container .posts .makepost {
+        margin-top: 10px;
+        padding: 20px 10px;
+    }
+    .search-nav {
+        height: 8vh;
+    }
+
+    .mob-view-navbar .navbar ul .nav-item {
+        width: 30px;
+    }
 }

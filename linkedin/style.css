@@ -1,21 +1,30 @@
 body {
   margin: 0;
   padding: 0;
-  transition: all 0.5s ease;
+  height: 100vh;
 }
 
+.bodybg {
+  height: 150vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #f3f2f0;
+  overflow: hidden;
+  z-index: -1;
+}
 /*  * header style */
 header {
-  height: 5vh;
+  height: 7vh;
   display: grid;
   grid-template-columns: 50% 11%;
   justify-content: center;
   align-items: center;
-  /* padding: 0px 20px; */
   background-color: #ffffff;
   width: 100%;
   position: fixed;
-  top: 5px;
+  top: 0;
+  z-index: +1000;
 }
 
 /* *---------------------------------------------------------- */
@@ -104,7 +113,6 @@ header {
   color: black;
 }
 .fa-user {
-  color: aliceblue;
   text-align: center;
   text-align: center;
   width: 25px;
@@ -157,13 +165,16 @@ header {
   width: 100%;
   bottom: 0;
   height: 60px;
-  left: -10px;
+  /* left: -10px; */
+  z-index: +1000;
   display: none;
+  background-color: #fff;
 }
 .mob-view-navbar .navbar ul {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  justify-content: left;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   align-items: center;
   list-style: none;
   height: 60px;
@@ -185,15 +196,221 @@ a:visited {
   fill: #000000;
 }
 .search-nav {
-  display: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 5vh;
+  position: fixed;
+  top: 0;
   white-space: nowrap;
   width: 100%;
+  background-color: #fff;
+  z-index: +1000;
+  display: none;
 }
 
 .search-nav .search {
   display: none;
+}
+
+/* *----------------------------------------------------- */
+/*                    * Profile Area                      */
+/* *------------------------------------------------------*/
+
+.container {
+  height: 80vh;
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: 20% 40% 30%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.container .profile {
+  border-radius: 10px;
+  height: auto;
+}
+
+.container .profile .profilepart {
+  height: auto;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.container .profile .profilepart .cover {
+  border-radius: 10px 10px 0 0;
+  height: 56px;
+  background-color: #00000099;
+  text-align: center;
+}
+.container .profile .profilepart .info {
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+.container .profile .profilepart .info .name {
+  color: #000000e6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.container .profile .profilepart .university {
+  color: #000000ab;
+  font-size: 13px;
+  text-align: center;
+}
+.container .profile .profilepart .cover .profilepic {
+  position: relative;
+  top: 20px;
+  width: 25%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.container .profile .profilepart .connections {
+  text-align: left;
+  padding: 0px 10px;
+  font-size: 12px;
+}
+.container .profile .profilepart .connections a {
+  text-decoration: none;
+  display: block;
+}
+.container .profile .profilepart .btnitems {
+  padding: 7px 12px;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border-radius: 0 0 10px 10px;
+  border: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.511);
+  height: 4vh;
+  color: rgb(83, 83, 83);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container .profile .links-groups {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.container .profile .links-groups .links {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0a66c2;
+}
+
+.container .profile .links-groups .discoverbtn {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid rgba(128, 128, 128, 0.557);
+  background: none;
+  font-size: 12px;
+  color: rgba(128, 128, 128);
+  font-weight: 500;
+}
+
+/* *----------------------------------------------------- */
+/*                    * Content Area                      */
+/* *------------------------------------------------------*/
+.container .posts {
+  border-radius: 10px;
+  height: auto;
+}
+.container .posts .makepost {
+  border-radius: 10px;
+  padding: 20px 7px 7px 7px;
+  background-color: #fff;
+  height: auto;
+}
+.container .posts .makepost .createpost {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+}
+.container .posts .makepost .createpost input {
+  height: 5vh;
+  width: 80%;
+  border-radius: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.511);
+  padding: 0px 30px;
+}
+.container .posts .makepost .createpost img {
+  width: 10%;
+}
+
+.container .posts .makepost .media {
+  display: flex;
+  justify-content: space-around;
+}
+.container .posts .makepost .media a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.container .posts .recommendations {
+  border-radius: 10px;
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+.container .posts .recommendations .text {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.container .posts .recommendations .person {
+  padding: 5px 10px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .posts .recommendations .person .profile-info {
+  display: flex;
+}
+.container .posts .recommendations .person .name-text {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.container .posts .recommendations .person .profile-info .name-text .info {
+  display: block;
+}
+
+.container .posts .recommendations .person .follow-button {
+  border: 1px solid #0a66c2;
+  background: none;
+  font-size: 10px;
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #0a66c2;
+}
+
+.container .posts .recommendations .person .btn-para {
+  text-align: right;
+}
+.container .posts .recommendations .person .follow-button:hover {
+  background-color: #0a66c27a;
+}
+
+.container .people .add-to-feed {
+  background-color: #fff;
+  height: 10vh;
+  width: 100%;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 10px;
 }

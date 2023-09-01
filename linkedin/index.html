@@ -18,6 +18,10 @@
 </head>
 
 <body>
+
+    <section class="bodybg"></section>
+
+
     <header>
         <div class="header-item first-item">
             <!--  !log and the search bar -->
@@ -199,11 +203,9 @@
             </div>
         </div>
     </header>
-
-
-    <!-- ////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////// -->
     <!-- mobile view navbar -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
     <div class="mob-view-navbar">
         <nav class="navbar">
             <ul>
@@ -296,10 +298,11 @@
             </ul>
         </nav>
     </div>
-
-
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- search bar in the mobile view -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
     <div class="search-nav">
-        <div class="profile">
+        <div class="profilephoto">
             <a href="" class="profile-svg">
                 <i class="fa-solid fa-user"></i>
             </a>
@@ -325,7 +328,118 @@
             </a>
         </div>
     </div>
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- content and the posts-->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
 
+    <section class="container">
+        <div class="child profile">
+            <div class="profilepart">
+                <p class="cover">
+                    <a href="">
+                        <img src="./media/ProfilePicture.png" class="profilepic" alt="">
+                    </a>
+                </p>
+                <p class="info">
+                    <a href="" class="name">
+                        Shameer Ijaz
+                    </a><br>
+                    <span class="university">
+                        Studied at University of Narowal
+                    </span>
+                </p>
+                <hr>
+                <div class="connections">
+                    <a href="">
+                        Connections <br>
+                        <b>Connect with alumni</b>
+                    </a>
+                </div>
+                <hr>
+                <div class="connections">
+                    Access Exclusive tools & insights
+                    <a href="">
+                        <b><u> Try premium for free</u></b>
+                    </a>
+                    <br>
+
+                </div>
+                <button class="btnitems">
+                    <i class="fa-solid fa-bookmark"></i> &nbsp; My Items
+                </button>
+            </div>
+
+            <div class="links-groups">
+                <a href="" class="links">
+                    Groups
+                </a>
+                <a href="" class="links">
+                    Events
+                </a>
+                <a href="" class="links">
+                    Followed Hashtages
+                </a>
+                <button class="discoverbtn">
+                    Discover More
+                </button>
+            </div>
+        </div>
+        <!-- post or content -->
+        <div class="child posts">
+            <div class="makepost">
+                <p class="createpost">
+                    <img src="./media/ProfilePicture.png" alt="">
+                    <input type="text" class="post" placeholder="Start a post">
+                </p>
+                <p class="media">
+                    <a href=""><i class="fa-regular fa-image"></i>&nbsp;Media</a>
+                    <a href=""><i class="fa-solid fa-calendar-days"></i>&nbsp;Event</a>
+                    <a href=""><i class="fa-solid fa-newspaper"></i>&nbsp;Write article</a>
+                </p>
+            </div>
+            <hr>
+
+            <!-- account recommendations -->
+            <div class="recommendations">
+                <p class="text">
+                    Recommended for you
+                </p>
+                <div class="person">
+                    <p class="profile-info">
+                        <img src="./media/ProfilePicture.png" width="25px" height="25px" class="profile-pic" alt="">
+                        <span class="name-text">
+                            <b>Person Name</b>
+                            <span class="info">This is the bio of account</span>
+                        </span>
+                    </p>
+                    <p class="btn-para">
+                        <button class="follow-button">Follow +</button>
+                    </p>
+                </div>
+                <div class="person">
+                    <p class="profile-info">
+                        <img src="./media/ProfilePicture.png" width="25px" height="25px" class="profile-pic" alt="">
+                        <span class="name-text">
+                            <b>Person Name</b>
+                            <span class="info">This is the bio of account</span>
+                        </span>
+                    </p>
+                    <p class="btn-para">
+                        <button class="follow-button">Follow +</button>
+                    </p>
+                </div>
+                <hr>
+            </div>
+
+
+        </div>
+        <div class="child people">
+            <div class="add-to-feed">
+                Add to your feed
+
+            </div>
+        </div>
+    </section>
 
     <script src="./index.js"></script>
 </body>
