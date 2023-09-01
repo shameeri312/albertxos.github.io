@@ -153,7 +153,6 @@ header {
 /* *------------------------------------------------------*/
 
 .mob-view-navbar {
-  border: 1px solid red;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -166,7 +165,6 @@ header {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   align-items: center;
-  border: 1px solid red;
   list-style: none;
   height: 60px;
 }
@@ -187,7 +185,6 @@ a:visited {
   fill: #000000;
 }
 .search-nav {
-  border: 1px solid red;
   display: none;
   display: flex;
   justify-content: space-around;
