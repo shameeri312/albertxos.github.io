@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>Clickup</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="./media/logo.svg" type="image/x-icon">
+    </head>
+
+    <body>
+        <!-- -------- Navbar -------- -->
+
+        <header class="cuHeader">
+            <div class="cuContainerWrap headerWrap">
+                <div class="cuLogo">
+                    <img src="./media/site_logo.png" class="cuLogoImg" width="100%" alt="">
+
+                </div>
+
+                <nav class="cuNavbar">
+                    <ul class="cuNavList">
+                        <li class="cuListItem">
+                            <button class="cuNavDropdown" id="dropDown">
+                                Product <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                        </li>
+                        <li class="cuListItem">
+                            <button class="cuNavDropdown">
+                                Solutions <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                        </li>
+                        <li class="cuListItem">
+                            <button class="cuNavDropdown">
+                                Learn <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                        </li>
+                        <li class="cuListItem">
+                            <a href="" class="cuLink">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="cuListItem">
+                            <a href="" class="cuLink">
+                                Enterprise
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="cuButtonsNavigation">
+                        <a href="" class="cuSalesLink">Contact Sales</a>
+                        <button class="cuNavBtn cuSignUp">Sign Up</button>
+                        <button class="cuNavBtn cuLogin">Login</button>
+                    </div>
+
+                    <div class="cuDropDownMenu">
+                        <span class="material-symbols-outlined openBtn">
+                            menu
+                        </span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <aside class="cuMobileMenu">
+            <div class="cuMobNavTop">
+                <div class="cuMobTopleft cuLogo">
+                    <img src="./media/site_logo.png" width="100%" alt="">
+
+                </div>
+                <div class="cuMobTopRight navCloseButton">
+                    <span class="material-symbols-outlined closeBtn">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <ul class="cuMobNavList">
+                <li class="cuMobListItem">
+                    <button class="cuMobDropdown font-size" id="dropDown">
+                        Product <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </li>
+                <li class="cuListItem">
+                    <button class="cuMobDropdown font-size">
+                        Solutions <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </li>
+                <li class="cuListItem">
+                    <button class="cuMobDropdown font-size">
+                        Learn <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </li>
+                <li class="cuListItem">
+                    <a href="" class="cuLink font-size">
+                        Pricing
+                    </a>
+                </li>
+                <li class="cuListItem">
+                    <a href="" class="cuLink font-size">
+                        Enterprise
+                    </a>
+                </li>
+            </ul>
+
+            <div class="mobNavBtns">
+                <button class="cuMobSignup">Sign up</button>
+                <button class="cuMobLognin">Login</button>
+            </div>
+        </aside>
+
+        <!-- The products dropdown menu -->
+
+        <section class="cuProductsDropdown">
+            <div class="cuDropDown">
+
+                <div class="cuDropMenu menuLeft">
+
+                    <h2 class="cuDropDownName">Product</h2>
+                    <fieldset class="cuAi">
+                        <legend class="cuAiLegend">New</legend>
+                        <div class="cuAiLogo">
+                            <img src="./media/site_logo.png" class="cuLogoImg" alt="">
+
+                        </div>
+
+                        <div class="cuAiText">
+                            The only AI solution that's custombui lt for you &nbsp;
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </fieldset>
+
+                    <div class="cuDropDownFeatures cu_grid">
+                        <div class="cuCard cuCard1 cu_grid_item">
+                            <div class="cuCard_1">
+                                <span class="material-symbols-outlined" id="green">
+                                    check_box
+                                </span>
+                            </div>
+                            <div class="cuCard_2">
+                                <h2>Tasks</h2>
+                                <small>
+                                    Bre ak down any size project into customized tasks.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="cuCard cuCard2 cu_grid_item">
+                            <div class="cuCard_1">
+                                <span class="material-symbols-outlined" id="skyblue">
+                                    description
+                                </span>
+                            </div>
+                            <div class="cuCard_2">
+                                <h2>Docs</h2>
+                                <small>
+                                    Createbea utiful docs and connect them to tasks.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="cuCard cuCard3 cu_grid_item">
+                            <div class="cuCard_1">
+                                <span class="material-symbols-outlined" id="pink">
+                                    trophy
+                                </span>
+                            </div>
+                            <div class="cuCard_2">
+                                <h2>Goals</h2>
+                                <small>
+                                    Track work against strategy with measurable targets.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="cuCard cuCard4 cu_grid_item">
+                            <div class="cuCard_1">
+                                <span class="material-symbols-outlined" id="blue">
+                                    inventory
+                                </span>
+                            </div>
+                            <div class="cuCard_2">
+                                <h2>Whiteboard</h2>
+                                <small>
+                                    Bri ng team ideas to life with visual collaboration.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="cuCard cuCard5 cu_grid_item">
+                            <div class="cuCard_1">
+                                <span class="material-symbols-outlined" id="purple">
+                                    dashboard
+                                </span>
+                            </div>
+                            <div class="cuCard_2">
+                                <h2>Dashbaord</h2>
+                                <small>
+                                    Visualize progress with real-time reporting.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="cuCard cuCard6 cu_grid_item">
+                            <div class="cuCard_1">
+                                <span class="material-symbols-outlined" id="orange">
+                                    tag
+                                </span>
+                            </div>
+                            <div class="cuCard_2">
+                                <h2>Chat</h2>
+                                <small>
+                                    Collaborate with your team in real-time.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="cuAllFeaturesBtn">
+                        See All Features &nbsp; <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="cuDropMenu menuRight">
+                    <h2 class="cuDropDownName">Platform</h2>
+                    <div class="cu_grid cuPlatformDrop">
+
+                        <div class="cuCard1 cu_card cu_grid_item">
+                            <div class="cuCard_1 ">
+                                <span class="material-symbols-outlined ">
+                                    computer
+                                </span>
+                            </div>
+
+                            <div class="cuCard_2">
+                                <h2>Tempelates</h2>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, iure!
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="cuCard2 cu_card cu_grid_item">
+                            <div class="cuCard_1 ">
+                                <span class="material-symbols-outlined ">
+                                    extension
+                                </span>
+                            </div>
+
+                            <div class="cuCard_2">
+                                <h2>ClickApps</h2>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, iure!
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="cuCard3 cu_card cu_grid_item">
+                            <div class="cuCard_1 ">
+                                <span class="material-symbols-outlined ">
+                                    ac_unit
+                                </span>
+                            </div>
+
+                            <div class="cuCard_2">
+                                <h2>Integrations</h2>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, iure!
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="cuCard4 cu_card cu_grid_item">
+                            <div class="cuCard_1 ">
+                                <span class="material-symbols-outlined ">
+                                    visibility
+                                </span>
+                            </div>
+
+                            <div class="cuCard_2">
+                                <h2>Views</h2>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, iure!
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="cuCard5 cu_card cu_grid_item">
+                            <div class="cuCard_1 ">
+                                <span class="material-symbols-outlined ">
+                                    timeline
+                                </span>
+                            </div>
+
+                            <div class="cuCard_2">
+                                <h2>Hirerchy</h2>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, iure!
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="cuCard6 cu_card cu_grid_item">
+                            <div class="cuCard_1 ">
+                                <span class="material-symbols-outlined ">
+                                    smart_toy
+                                </span>
+                            </div>
+                            <div class="cuCard_2">
+                                <h2>Auomations</h2>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, iure!
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="overlay"></div>
+
+        <!--------- Main Section ---------->
+
+        <main class="cuMainPart">
+            <div class="cuHeroContainer cuContainerWrap">
+                <div class="cuHero cuHeroLeft">
+                    <div class="cuHeroItems">
+                        <h1 class="cuAppHeading">
+                            One app to
+                            replace them all.
+                        </h1>
+                        <br>
+                        <span class="tagline">
+                            All your work in one place:
+                        </span>
+                    </div>
+
+                    <div class="cuHeroItems cuHeroBtn">
+                        <button class="cuFeatureBtns">
+                            Tasks
+                            <span class="material-symbols-outlined" id="green">
+                                check_box
+                            </span>
+                        </button>
+                        <button class="cuFeatureBtns">
+                            Whiteboard
+                            <span class="material-symbols-outlined" id="skyblue">
+                                description
+                            </span>
+                        </button>
+                        <button class="cuFeatureBtns">
+                            Dashbaords
+
+                            <span class="material-symbols-outlined" id="pink">
+                                trophy
+                            </span>
+                        </button>
+                        <button class="cuFeatureBtns">
+                            Chat
+
+                            <span class="material-symbols-outlined" id="blue">
+                                inventory
+                            </span>
+                        </button>
+                        <button class="cuFeatureBtns">
+                            Goals
+
+                            <span class="material-symbols-outlined" id="purple">
+                                dashboard
+                            </span>
+                        </button>
+                        <button class="cuFeatureBtns">
+                            Docs
+
+                            <span class="material-symbols-outlined" id="icon6">
+                                tag
+                            </span>
+                        </button>
+
+                        <ul class="cuCheckList">
+                            <li class="listItem">
+                                <span class="material-symbols-outlined" id="green">
+                                    check_circle
+                                </span>
+                                Lorem ipsum dolor sit.
+                            </li>
+                            <li class="listItem">
+                                <span class="material-symbols-outlined" id="green">
+                                    check_circle
+                                </span>
+                                Lorem ipsum dolor sit Lorem, ipsum dolor.
+                            </li>
+                            <li class="listItem">
+                                <span class="material-symbols-outlined" id="green">
+                                    check_circle
+                                </span>
+                                Lorem ipsum dolor sit Lorem, ipsum.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cuHeroItems cuEmailInput">
+                        <input type="email" class="cuInput" placeholder="Enter your work Email">
+                    </div>
+
+                    <div class="cuHeroItems cuStarted">
+                        <button class="cuGetStarted">
+                            Get Started
+                        </button>
+                        <span>
+                            Free Forever <br> NO CREDIT CARD
+                        </span>
+                    </div>
+
+                    <div class="cuHeroItems cuGraphicImage">
+                        <img src="./media/home-banner-graphic-v3.png" width="10%" alt="">
+                    </div>
+
+                    <div class="cuHeroItems cuReviews">
+                        <div class="stars">
+                            <img src="./media/rating-star.svg" alt="">
+                            <img src="./media/rating-star.svg" alt="">
+                            <img src="./media/rating-star.svg" alt="">
+                            <img src="./media/rating-star.svg" alt="">
+                            <img src="./media/rating-star.svg" alt="">
+                            <small>Based on 10,000+ reviews on</small>
+                        </div>
+                    </div>
+                    <div class="cuHeroItems cuCompanyLogos">
+                        <p>
+                            <img src="./media/g2crowd.png" width="90%" alt="">
+                        </p>
+                        <p>
+                            <img src="./media/capterra.png" width="90%" alt="">
+                        </p>
+                        <p>
+                            <img src="./media/getapp.svg" width="100%" alt="">
+                        </p>
+                        <p>
+                            <img src="./media/trustradius.png" width="90%" alt="">
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cuHero cuHeroRight">
+                    <video src="./media/header-graphic-v08-vp9 (1).webm" class="cuGraphicVideo" loop autoplay
+                        muted></video>
+                </div>
+            </div>
+        </main>
+
+        <!--------- Teams Section ---------->
+
+        <section class="cuContainer cuTeams">
+            <h2>JOIN 800,000+ HIGHLY PRODUCTIVE TEAMS</h2>
+            <div class="cuContainerWrap cuImageLayout">
+                <div class="image"><img src="./media/booking_com.svg" alt=""></div>
+                <div class="image"><img src="./media/ibm.svg" alt=""></div>
+                <div class="image"><img src="./media/logitech.svg" alt=""></div>
+                <div class="image"><img src="./media/fortinet.svg" alt=""></div>
+                <div class="image"><img src="./media/tibco.svg" alt=""></div>
+                <div class="image"><img src="./media/spotify_logo_with_text.svg" alt=""></div>
+                <div class="image"><img src="./media/t-mobile_logo.svg" alt=""></div>
+                <div class="image"><img src="./media/netflix.svg" alt=""></div>
+            </div>
+        </section>
+
+        <!-------- App Details Section -------->
+
+        <section class="cuContainer cuAppDetails">
+            <div class="cuContainerWrap cuAppContainer">
+                <div class="cuDetailList">
+                    <ul class="buttonList">
+                        <li><button class="btn projects active">Projects & Tasks</button></li>
+                        <li><button class="btn chat">Chat</button></li>
+                        <li><button class="btn goals">Goals</button></li>
+                        <li><button class="btn view">View</button></li>
+                    </ul>
+                </div>
+                <div class="cuAppDetail">
+                    <div class="cuApp cuAppLeft">
+                        <h2 id="infoHeading">
+                            Simplify work and get more done.
+                        </h2>
+                        <p id="infoPara">
+                            Plan, track, and manage any type of work with project management that flexes to your team's
+                            needs.
+                        </p>
+                        <p id="replaceInfo">
+                            REPLACES: Asana | Monday | Jira
+                        </p>
+                        <div class="cuHeroItems cuStarted">
+                            <button class="cuGetStarted cuGetStarted2">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cuApp cuAppRight">
+                        <video src="./media/projects_tasks.mp4" class="cuGraphicVideo cuAppVideo" loop autoplay muted>
+                        </video>
+                        <img src="./media/projects_tasks.png" class="appImg" alt="">
+                    </div>
+                </div>
+                <div class="cuAppInfo">
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-------- App Display Section2 -------->
+
+        <section class="cuContainer cuAppDisplay">
+            <div class="cuContainerWrap appDisplay">
+                <div class="appDisplayheader">
+                    <ul class="appDisplayBtns">
+                        <li><button class="btn active2">Docs</button></li>
+                        <li><button class="btn  ">Whiteboard</button></li>
+                        <li><button class="btn  ">Dashbaord</button></li>
+                    </ul>
+                </div>
+
+                <div class="appDisplayVideos">
+                    <h1 class="appHeading">
+                        The world's most powerful (and fun) Docs.
+                    </h1>
+                    <video src="./media/docs.mp4" class="appVideo" autoplay muted></video>
+                    <img src="./media/projects_tasks.png" alt="" width="90%" class="appImage">
+                </div>
+
+                <div class="getStarted">
+                    <p>
+                        Get Started &nbsp;
+                        <span class="material-symbols-outlined">arrow_right_alt</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--------- Content Section ---------->
+
+        <section class="cuContainer">
+            <div class="cuContainerWrap cuContent appDisplay">
+                <div class="cuAppDetail cuContentDetail">
+                    <div class="cuApp cuAppLeft cuContentLeft">
+                        <div class="cuicon">
+                            O
+                        </div>
+                        <p class="heading">The Platform</p>
+                        <h1 class="contentHead"> Import to the future of work with one click. </h1>
+                        <p class="contentPara">
+                            Instantly import your work from other tools automatically. Create a custom import tobri ng
+                            work in from excel or tools
+                            that aren't supported.
+                        </p>
+
+                        <ul class="contentBtns contentBtnsInline">
+                            <li class="active3">
+                                <span class="active_3 ">
+                                    01
+                                </span>&nbsp;
+                                <buttons class="btn">Import</buttons>
+                            </li>
+                            <li class="active3">
+                                <span class="active_3 ">
+                                    02
+                                </span>&nbsp;
+                                <buttons class="btn ">Download</buttons>
+                            </li>
+                            <li class="active3">
+                                <span class="active_3 ">
+                                    03
+                                </span>&nbsp;
+                                <buttons class="btn ">ClickApps</buttons>
+                            </li>
+                            <li class="active3">
+                                <span class="active_3 ">
+                                    04
+                                </span>&nbsp;
+                                <buttons class="btn ">Integrations</buttons>
+                            </li>
+                            <li class="active3">
+                                <span class="active_3 ">
+                                    05
+                                </span>&nbsp;
+                                <buttons class="btn ">Automations</buttons>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cuApp cuAppRight">
+                        <video src="./media/import.mp4" class="cuGraphicVideo cuAppVideo contentVideo" loop autoplay
+                            muted>
+
+                        </video>
+                        <img src="./media/import.avif" width="100%" class="contentImg" alt="">
+                    </div>
+                </div>
+
+                <div class="getStarted getStartedContent">
+                    <p>
+                        Get Started
+                        &nbsp;
+                        <span class="material-symbols-outlined">arrow_right_alt</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--------- Footer Section ---------->
+
+        <section class="cuContainer">
+            <div class="cuContainerWrap cuBuiltTeams">
+                <div class="teamHeading">
+                    <span>BUILT FOR EVERYONE</span>
+                    <p>Built for teams from 1 to 1,000+.</p>
+                    <ul class="teamBtnList">
+                        <li><button class="btn">Project Management</button></li>
+                        <li><button class="btn">Engineering</button></li>
+                        <li><button class="btn">Sales</button></li>
+                        <li><button class="btn">Marketing</button></li>
+                        <li><button class="btn">Product</button></li>
+                        <li><button class="btn">Design</button></li>
+                        <li><button class="btn">Finance</button></li>
+                        <li><button class="btn">HR</button></li>
+                        <li><button class="btn">IT</button></li>
+                    </ul>
+                </div>
+                <div class="teamInfo">
+                    <div class="teamData teamInfoText">
+
+                        <div class="info">
+                            <p class="">
+                                <span class="material-symbols-outlined icons">
+                                    visibility
+                                </span>
+                            </p>
+                            <div class="text">
+                                <h1 class="teamInfoHeading">Visualize & Plan</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perspiciatis
+                                    temporibus illo aut similique
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <p class="">
+                                <span class="material-symbols-outlined icons">
+                                    groups_3
+                                </span>
+                            </p>
+                            <div class="text">
+                                <h1 class="teamInfoHeading">Collaborate</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perspiciatis
+                                    temporibus illo aut similique
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <p class="">
+                                <span class="material-symbols-outlined icons">
+                                    checklist
+                                </span>
+                            </p>
+                            <div class="text">
+                                <h1 class="teamInfoHeading">Track</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perspiciatis
+                                    temporibus illo aut similique
+                                </p>
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="teamData media">
+                        <img src="https://images.ctfassets.net/w8fc6tgspyjz/5roZ9B0wNRq47T3CQVSJhg/c36d845be59812dd6429e5f2c5b0e9f1/task-view.png?fm=avif&q=50&w=800"
+                            class="teamImage" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="getStarted3">
+                    <button class="cuGetStarted3">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--------- Review Section ---------->
+
+        <section class="cuContainer">
+            <div class="cuContainerWrap cuReview">
+                <div class="personPic">
+                    <img src="./media/boy1.avif" width="100%" alt="">
+                    <button>
+                        <span class="material-symbols-outlined">
+                            play_arrow
+                        </span>
+                    </button>
+                </div>
+                <div class="reviewText">
+                    <div class="reviewLines">
+                        ClickUp has become such an integral part of our work! By putting our work on ClickUp and
+                        organizing it into Sprints, we
+                        made it easy to work across departments without overloading ourselves with meetings and email
+                        threads.
+                    </div>
+
+                    <div class="personName">
+                        Jakub, Inbound Marketing Team Lead, STX Next
+                    </div>
+                    <div class="personCompany">
+                        <p class="logo">
+                            <img src="./media/stxnext.svg" alt="">
+                        </p>
+                        <p class="reviewNavigation">
+                            <button class="reviewNav ">
+                                <span class="material-symbols-outlined">
+                                    west
+                                </span>
+                            </button>
+                            <button class="reviewNav active4">
+                                <span class="material-symbols-outlined">
+                                    east
+                                </span>
+                            </button>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------- Customer Support ---------->
+
+        <section class="cuContainer">
+            <div class="cuContainerWrap cuCustomerSupport">
+                <div class="customerSupportText">
+                    <div class="logo247">
+                        <span class="material-symbols-outlined">
+                            sms
+                        </span>
+                    </div>
+                    <p class="customerSupportTagline">#1 SUPPORT IN SOFTWARE</p>
+                    <h1 class="realtimeSupport">24/7 real-time support.</h1>
+                    <p class="infoPara">ClickUp has the highest rated client support in software. We're here 24 hours a
+                        day, every day of
+                        the week, including
+                        holidays.
+                    </p>
+                    <ul class="checkList2">
+                        <li><span class="material-symbols-outlined">check_circle</span>Email Support</li>
+                        <li><span class="material-symbols-outlined">check_circle</span>Live Chat for Unlimited Plan+
+                            Workspaces</li>
+                        <li><span class="material-symbols-outlined">check_circle</span>Frequent Webinars</li>
+                    </ul>
+                </div>
+                <div class="customerSupportImage">
+                    <img src="./media/customer-support.png" width="100%" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--------- Footer Section ---------->
+
+        <br>
+        <footer class="cuContainer cuFooterSection">
+            <div class="cuFooter cuContainerWrap">
+                <div class="footerPart footerPartOne">
+                    <div class="footerTagLine">
+                        <h1>
+                            One app to replace them all.
+                        </h1>
+                        <p>
+                            All of your work in one place: Tasks, Docs, Chat, Goals, & more.
+                        </p>
+                    </div>
+
+                    <button class="freeForever">
+                        Free Forever
+                    </button>
+                </div>
+
+                <div class="footerPart footerPartTwo">
+                    <p class="footerLink">
+                        <span class="material-symbols-outlined">
+                            token
+                        </span>
+                        <a href="">
+                            Free training
+                        </a>
+                        &nbsp;
+                        &
+                        &nbsp;
+                        <a href="">
+                            24-hours support
+                        </a>
+                    </p>
+
+                    <p class="footerLink">
+                        <span class="material-symbols-outlined">
+                            verified_user
+                        </span>
+                        Serious about
+                        <a href="">
+                            &nbsp;security & privacy
+                        </a>
+                    </p>
+
+                    <p class="footerLink">
+                        <span class="material-symbols-outlined">
+                            swap_driving_apps_wheel
+                        </span>
+                        <a href="">
+                            Highest levels of uptime
+                            the last 12 months
+                        </a>
+                    </p>
+                </div>
+
+                <div class="hr"></div>
+
+                <div class="footerPart footerPartThree">
+                    <div class="footerEndCol">
+                        <ul>
+                            <li><b>CLICKUP</b></li>
+                            <li><a href="">Download</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Product Roadmap</a></li>
+                            <li><a href="">Press</a></li>
+                            <li><a href="">Clients</a></li>
+                            <li><a href="">Brand</a></li>
+                            <li><a href="">Verified</a></li>
+                            <li><a href="">Affiliate & Referrals</a></li>
+                            <li><a href="">Reviews</a></li>
+                            <li><a href="">Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerEndCol">
+                        <ul>
+                            <li><b>RESOURCES </b></li>
+                            <li><a href="">Help Docs </a></li>
+                            <li><a href="">On-Demand Demo </a></li>
+                            <li><a href="">Webinars </a></li>
+                            <li><a href="">Contact Us </a></li>
+                            <li><a href="">Templates </a></li>
+                            <li><a href="">Import </a></li>
+                            <li><a href="">API </a></li>
+                            <li><a href="">Consultants </a></li>
+                            <li><a href="">Partners </a></li>
+                            <li><a href="">ClickUp University </a></li>
+                            <li><a href="">Events </a></li>
+                        </ul>
+                    </div>
+                    <div class="footerEndCol">
+                        <ul>
+                            <li><a href=""><b>FEATURES</b></a></li>
+                            <li><a href="">Gantt Chart </a></li>
+                            <li><a href="">Dashboards </a></li>
+                            <li><a href="">Native Time Tracking </a></li>
+                            <li><a href="">Mind Maps </a></li>
+                            <li><a href="">Automations </a></li>
+                            <li><a href="">Notepad </a></li>
+                            <li><a href="">Integrations </a></li>
+                            <li><a href="">Email </a></li>
+                            <li><a href="">To-Do List </a></li>
+                            <li><a href="">Kanban Board </a></li>
+                            <li><a href="">Sprints </a></li>
+                        </ul>
+                    </div>
+                    <div class="footerEndCol">
+                        <ul>
+                            <li><a href=""><b>COMPARE</b></a></li>
+                            <li><a href="">vs Monday</a></li>
+                            <li><a href="">vs Asana</a></li>
+                            <li><a href="">vs Jira</a></li>
+                            <li><a href="">vs Trello</a></li>
+                            <li><a href="">vs Airtable</a></li>
+                            <li><a href="">vs Notion</a></li>
+                            <li><a href="">vs Basecamp</a></li>
+                            <li><a href="">vs Wrike</a></li>
+                            <li><a href="">vs MS Project</a></li>
+                            <li><a href="">vs Todoist</a></li>
+                            <li><a href="">vs Smartsheet</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerEndCol footerEndLastCol">
+                        <ul>
+                            <li><a href=""><b>BLOG</b> </a></li>
+                            <li><a href=""> Software Team Hub</a></li>
+                            <li><a href=""> Agency Hub</a></li>
+                            <li><a href=""> PM Software Guide</a></li>
+                            <li><a href=""> Newsletter</a></li>
+                            <li><a href=""> Podcast</a></li>
+                        </ul>
+                        <div class="hr"></div>
+                        <div class="cuDownloadLink">
+                            <a href=""> <img src="./media/app-store-badge-white.png" width="150px" alt=""></a>
+                            <a href=""> <img src="./media/google-play-badge-white.png" width="150px" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hr"></div>
+
+                <div class="footerEnd">
+                    <div class="endOne">
+                        <img src="./media/site_logo.svg" width="150px" alt="">
+                        <p>© 2023 ClickUp | <a href="">Security</a> | <a href="">Your Privacy</a> | <a href="">Terms</a>
+                        </p>
+                    </div>
+                    <div class="endTwo">
+                        <ul class="socialLinks">
+                            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+
+</html>

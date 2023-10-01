@@ -1,0 +1,2028 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    background: none;
+    border: none;
+    font-size: 15px;
+    transition: .3s all ease;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+* span.material-symbols-outlined {
+    overflow: hidden;
+}
+
+h2 {
+    overflow: hidden;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.969);
+
+}
+
+.cuDropDownMenu {
+    display: none;
+}
+
+.cuHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+    position: fixed;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    z-index: 99;
+}
+
+.cuContainerWrap {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.headerWrap {
+    padding: 0 10px;
+}
+
+.cuLogo {
+    height: auto;
+    width: 150px;
+    display: grid;
+    align-items: center;
+}
+
+.cuLogoImg {
+    width: 100%;
+}
+
+
+.cuNavbar {
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.cuNavList {
+    display: flex;
+    width: 60%;
+    justify-content: start;
+    align-items: center;
+}
+
+.cuListItem {
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.fa-solid {
+    font-size: 10px;
+}
+
+/* ---------dropdown navigations--------- */
+.cuButtonsNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+}
+
+.cuProductsDropdown {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0vh;
+    background: white;
+}
+
+.cuDropDown {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.cuDropMenu {
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.cuDropDownName {
+    text-transform: uppercase;
+    padding: 0 0 0 20px;
+    font-size: 12px;
+}
+
+.cuAi {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0 18px 0;
+    border: 1px solid rgb(243, 76, 250);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cuAiLegend {
+    color: rgb(243, 76, 250);
+    padding: 2px 10px;
+    background: rgba(244, 76, 250, 0.141);
+    margin: 0 0 0 20px;
+}
+
+.cuAiLogo {
+    width: 20%;
+    padding: 0 0 0 20px;
+}
+
+.cuAiText {
+    width: 80%;
+    text-align: end;
+    padding: 0 20px 0 0;
+}
+
+.fa-arrow-right {
+    color: rgb(243, 76, 250);
+    font-weight: 900;
+}
+
+.cu_grid {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+    overflow: hidden;
+}
+
+.cu_grid_item {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    line-height: 18px;
+    padding: 5px 0 0 5px;
+}
+
+.cuCard {
+    border-radius: 20px;
+
+}
+
+.cuCard_2 {
+    overflow: hidden;
+}
+
+.cuCard_1 {
+    width: 20%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cuCard1 span {
+    color: rgb(85, 255, 85);
+}
+
+.cuCard2 span {
+    color: skyblue;
+}
+
+.cuCard3 span {
+    color: rgb(226, 99, 120);
+}
+
+.cuCard4 span {
+    color: blue;
+}
+
+.cuCard5 span {
+    color: rgb(182, 0, 182);
+}
+
+.cuCard6 span {
+    color: orange;
+}
+
+.cuCard_2 {
+    width: 75%;
+    padding: 10px;
+}
+
+.cuCard_2 small {
+    font-size: 12px;
+    line-height: 15%;
+    color: rgba(0, 0, 0, 0.783);
+
+}
+
+
+.cuAllFeaturesBtn {
+    background: rgba(124, 104, 238, 0.144);
+    height: 5vh;
+    border-radius: 20px;
+}
+
+.cuAllFeaturesBtn i {
+    font-weight: bold;
+    font-size: small;
+}
+
+.menuRight {
+    width: 40%;
+}
+
+.cuPlatformDrop {
+    height: 55vh;
+}
+
+.cuPlatformDrop .cu_grid_item {
+    width: 45%;
+}
+
+/* ------------------------------ */
+/* --------mobile navbar--------- */
+/* ------------------------------ */
+
+.cuMobileMenu {
+    width: 320px;
+    height: 550px;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 9999;
+    right: -500px;
+}
+
+.cuMobNavList {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    height: 300px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.cuMobNavList .cuListItem .cuLink {
+    color: black;
+}
+
+.cuMobNavTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuMobTopleft {
+    width: 35%;
+}
+
+.cuMobTopRight {
+    width: 50%;
+    text-align: right;
+}
+
+.cuMobSignup {
+    background: rgb(124, 108, 236);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.cuMobLognin {
+    background: rgb(233, 233, 233);
+}
+
+.cuMobSignup,
+.cuMobLognin {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: #00000035;
+    display: none;
+    z-index: 99;
+}
+
+.cuNavBtn {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cuSignUp {
+    background: white;
+    color: rgb(124, 108, 236);
+}
+
+.cuLogin {
+    background: rgba(255, 255, 255, 0.104);
+    color: white;
+    backdrop-filter: blur(5px);
+
+}
+
+.cuSalesLink {
+    color: white;
+}
+
+.openBtn {
+    color: white;
+}
+
+/* -------------------------------- */
+/*  End of navigation styling code  */
+/* -------------------------------- */
+
+.cuMainPart {
+    width: 100%;
+    height: auto;
+    background: url(./media/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-position: top center;
+    padding: 110px 0px;
+}
+
+.cuHeroContainer {
+    display: flex;
+    width: 85%;
+}
+
+.cuHeroItems {
+    padding: 10px;
+}
+
+.cuHeroLeft {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+}
+
+.cuHeroRight {
+    width: 70%;
+}
+
+.cuHeroBtn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cuFeatureBtns {
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+}
+
+.cuFeatureBtns:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.cuFeatureBtns span {
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.cuAppHeading {
+    font-size: 50px;
+}
+
+.cuInput {
+    width: 90%;
+    height: 6vh;
+    border-radius: 10px;
+    border: .5px solid grey;
+    padding: 0 0 0 30px;
+}
+
+.cuStarted {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuStarted span {
+    opacity: .6;
+    z-index: -99;
+}
+
+.cuGetStarted {
+    padding: 15px 30px;
+    background: rgb(124, 108, 236);
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.cuCompanyLogos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.cuCompanyLogos p {
+    width: 20%;
+}
+
+.navbar-scroll {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.cuHeroLeft div {
+    height: auto;
+}
+
+.cuGraphicVideo {
+    width: 100%;
+}
+
+.cuHeroRight {
+    height: auto;
+    top: 0;
+}
+
+.cuCheckList {
+    list-style-type: none;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    width: 100%;
+}
+
+.cuCheckList .listItem {
+    display: flex;
+    gap: 10px;
+}
+
+.cuGraphicImage {
+    display: none;
+}
+
+.cuGraphicImage img {
+    width: 100%;
+}
+
+
+/* ----------------------------------- */
+/* ----------Teams sectoin  ---------- */
+/* ----------------------------------- */
+
+.cuTeams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuImageLayout {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding: 40px 0;
+}
+
+
+.image {
+    width: 150px;
+    text-align: center;
+
+}
+
+.cuTeams h2 {
+    color: grey;
+}
+
+
+/* ----------------------------------- */
+/* --------App info section ---------- */
+/* ----------------------------------- */
+.cuAppDetails {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuContainer {
+    display: flex;
+    justify-content: center;
+    padding: 25px 10px;
+}
+
+.cuAppContainer {
+    flex-direction: column;
+    border-radius: 70px;
+    height: auto;
+    background: rgb(253, 113, 175, 0.05);
+    justify-content: start;
+}
+
+.cuDetailList .buttonList {
+    display: flex;
+    padding: 0px 40px 10px 40px;
+    height: 10vh;
+    width: 500px;
+    align-items: end;
+    gap: 20px;
+}
+
+
+.cuDetailList .buttonList li .btn {
+    border-bottom: 3px solid rgba(253, 113, 176, 0);
+}
+
+.cuDetailList .buttonList li .active {
+    border-bottom: 3px solid rgba(253, 113, 175);
+}
+
+.cuDetailList .buttonList li .btn:hover {
+    border-bottom: 3px solid rgba(253, 113, 175);
+}
+
+.cuDetailList .buttonList li .btn:focus {
+    border-bottom: 3px solid rgba(253, 113, 175);
+}
+
+.cuAppDetail {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 100px 0;
+}
+
+.cuAppLeft {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cuAppLeft>h2 {
+    font-size: 40px;
+}
+
+.cuAppRight {
+    width: 50%;
+
+}
+
+.cuGetStarted2 {
+    background: rgb(253, 113, 175);
+}
+
+.appImg {
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.cuAppVideo {
+    display: block;
+}
+
+/* ---------------------------------  */
+/* -----------App display-----------  */
+/* ---------------------------------  */
+.cuAppDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appDisplay {
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(124, 108, 236, 0.06);
+    background-image: url(./media/tabs-icons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 0 0 0;
+}
+
+.appDisplayheader {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.appDisplay .appDisplayBtns {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0 0 0 5px;
+}
+
+.appDisplay .appDisplayBtns li button {
+    border-bottom: 3px solid transparent;
+}
+
+.appDisplay .appDisplayBtns li button:hover {
+    border-bottom: 3px solid rgb(124, 108, 236);
+
+}
+
+.appDisplay ul li button:focus {
+    border-bottom: 3px solid rgb(124, 108, 236);
+
+}
+
+.appDisplayheader .appDisplayBtns .active2 {
+    border-bottom: 3px solid rgb(124, 108, 236);
+}
+
+.appDisplayVideos h1 {
+    font-size: 50px;
+    text-align: center;
+    width: 570px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.appDisplayVideos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 20px;
+}
+
+.appDisplayVideos video {
+    width: 70%;
+}
+
+.getStarted {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(124, 108, 236, 0.1);
+    cursor: pointer;
+    border-radius: 0 0 50px 50px;
+}
+
+.appImage {
+    display: none;
+}
+
+/* ------------------------------------- */
+/* ------------ The Platform ----------- */
+/* ------------------------------------- */
+.cuContent {
+    background: rgba(239, 251, 248);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+}
+
+.cuicon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: rgb(8, 188, 134);
+    font-size: 30px;
+    color: white;
+}
+
+.getStartedContent {
+    background: rgb(8, 188, 134, 0.1);
+}
+
+.getStarted p {
+    display: flex;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.getStarted:hover p {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 8px;
+}
+
+.cuContentLeft .heading {
+    color: rgb(20, 188, 134);
+}
+
+.cuContentLeft h1 {
+    font-size: 45px;
+}
+
+.cuContentLeft .contentBtns {
+    display: flex;
+    width: 99%;
+    flex-wrap: wrap;
+    justify-content: start;
+    height: auto;
+    gap: 10px;
+}
+
+.cuContentLeft .contentBtns li {
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    opacity: .5;
+    font-size: 1vw;
+}
+
+.cuContentLeft .contentBtns .active3:hover {
+    opacity: 1;
+}
+
+.cuContentLeft .contentBtns .active3:active {
+    opacity: 1;
+}
+
+.cuContentLeft .contentBtns .active3:focus {
+    opacity: 1;
+}
+
+.cuContentLeft .contentBtns .active3 .active_3 {
+    background: rgb(8, 188, 134);
+    color: white;
+}
+
+.contentBtns .active3 .btn {
+    cursor: pointer;
+}
+
+.cuContentLeft .contentBtns li span {
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.contentImg {
+    display: none;
+}
+
+/* ---------------- */
+/* icon colors */
+/* ---------------- */
+
+#green {
+    color: rgb(85, 255, 85);
+}
+
+#skyblue {
+    color: skyblue;
+}
+
+#pink {
+    color: rgb(226, 99, 120);
+}
+
+#blue {
+    color: blue;
+}
+
+#purple {
+    color: rgb(182, 0, 182);
+}
+
+#orange {
+    color: orange;
+}
+
+/* ----------------------------------- */
+/* ---------- Teams Built ------------ */
+/* ----------------------------------- */
+.cuBuiltTeams {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: rgb(77, 202, 250, 0.1);
+    padding: 50px 0;
+    border-radius: 50px;
+}
+
+.cuBuiltTeams .teamHeading {
+    text-align: center;
+}
+
+.cuBuiltTeams .teamHeading span {
+    color: rgb(77, 202, 250);
+    font-size: 15px;
+}
+
+.cuBuiltTeams .teamHeading p {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.cuBuiltTeams .teamHeading .teamBtnList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+
+.cuBuiltTeams .teamHeading .teamBtnList li .btn {
+    border-bottom: 3px solid transparent;
+}
+
+.cuBuiltTeams .teamHeading .teamBtnList li .btn:hover {
+    border-bottom: 3px solid #5c8cfb;
+}
+
+.cuBuiltTeams .teamHeading .teamBtnList li .btn:focus {
+    border-bottom: 3px solid #5c8cfb;
+}
+
+.cuBuiltTeams .teamHeading .teamBtnList li .btn:active {
+    border-bottom: 3px solid #5c8cfb;
+}
+
+.cuBuiltTeams .teamInfo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 20px;
+}
+
+.cuBuiltTeams .teamInfo .teamData {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+}
+
+.cuBuiltTeams .teamInfo .teamInfoHeading {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+}
+
+.cuBuiltTeams .teamInfo .teamInfoText {
+    width: 40%;
+}
+
+.cuBuiltTeams .teamInfo .media {
+    align-items: start;
+}
+
+.cuBuiltTeams .teamInfo .media img {
+    margin: auto;
+}
+
+.cuBuiltTeams .info {
+    display: flex;
+    gap: 20px;
+    padding: 20px 10px;
+
+}
+
+.cuBuiltTeams .info .icons {
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.cuBuiltTeams .info .text p {
+    text-wrap: wrap;
+}
+
+.getStarted3 {
+    padding: 20px 0 0 6%;
+}
+
+.getStarted3 .cuGetStarted3 {
+    padding: 20px 40px;
+    border-radius: 15px;
+    background: rgb(77, 202, 250);
+    color: white;
+}
+
+/* ----------------------------------- */
+/* ----------Review sectoin  ---------- */
+/* ----------------------------------- */
+
+.cuReview {
+    background: rgb(253, 113, 175, 0.05);
+    display: flex;
+    border-radius: 50px;
+    padding: 0;
+    height: 500px;
+}
+
+.cuReview .personPic {
+    width: 40%;
+    background-image: url(./media//boy1.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.cuReview .personPic img {
+    visibility: hidden;
+}
+
+.cuReview .personPic button {
+    border-radius: 50%;
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.466);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cuReview .personPic button span {
+    color: white;
+    padding: 10px;
+    background: rgb(253, 113, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.cuReview .reviewText {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.cuReview .reviewText .personName {
+    font-size: 20px;
+}
+
+.cuReview .reviewText .reviewLines {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 80px;
+    line-height: 40px;
+}
+
+.cuReview .reviewText .personCompany {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personCompany .reviewNavigation {
+    display: flex;
+}
+
+
+.personCompany .reviewNav {
+    border: 1px solid rgb(123, 123, 123);
+    color: rgb(123, 123, 123);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    gap: 20px;
+}
+
+.personCompany .active4 {
+    border: 1px solid black;
+    color: black;
+}
+
+.personCompany .reviewNav:hover {
+    transform: none;
+}
+
+
+/* ----------------------------------- */
+/* ----------Customer Support  ------- */
+/* ----------------------------------- */
+
+.cuCustomerSupport {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customerSupportText {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.customerSupportText .logo247 {
+    background: rgb(124, 108, 236);
+    width: 60px;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.customerSupportText .customerSupportTagline {
+    color: rgb(124, 108, 236);
+    padding: 20px 0;
+}
+
+.customerSupportText .infoPara {
+    padding: 30px 0;
+}
+
+.realtimeSupport {
+    font-size: 45px;
+}
+
+.customerSupportText .checkList2 span {
+    color: rgb(124, 108, 236);
+}
+
+.customerSupportText .checkList2 li {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.customerSupportImage {
+    width: 50%;
+}
+
+/* ----------------------------------- */
+/* ----------Footer sectoin ---------- */
+/* ----------------------------------- */
+
+.cuFooterSection {
+    background-image: url(./media/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 10px;
+}
+
+.cuFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerPart {
+    display: flex;
+}
+
+.footerPartOne {
+    height: 250px;
+    background-image: url(./media/logo_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.freeForever {
+    background: rgb(124, 108, 236);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    color: white;
+}
+
+.footerPartTwo {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footerPartTwo span {
+    font-size: 50px;
+}
+
+.footerLink {
+    display: flex;
+    width: 350px;
+    color: white;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.footerLink>a {
+    color: white;
+    font-weight: 500;
+}
+
+.footerLink>a:hover {
+    text-decoration: underline;
+}
+
+
+.footerTagLine h1 {
+    font-size: 50px;
+}
+
+.hr {
+    border-bottom: .5px solid rgb(255, 255, 255, 0.5);
+}
+
+.footerPartThree {
+    justify-content: start;
+}
+
+.footerEnd {
+    padding: 20px 10px;
+}
+
+.footerEndCol {
+    width: 220px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+
+.footerEndCol ul li a {
+    color: white;
+}
+
+.footerEndCol ul li a:hover {
+    text-decoration: underline;
+}
+
+.footerEndCol ul li {
+    padding: 10px 0px;
+    color: white;
+}
+
+.footerEndLastCol {
+    justify-content: space-between;
+    height: calc(550px - 25px);
+    padding: 0 0 25px 0;
+}
+
+.cuDownloadLink {
+    align-self: end;
+}
+
+.footerEnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.footerEnd>.endOne>p>a,
+.socialLinks a {
+    color: white;
+}
+
+.socialLinks a i {
+    font-size: 20px;
+}
+
+.cuContentBtn {
+    display: none;
+}
+
+
+
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ----the responsive site code--- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+@media only screen and (width<=1450px) {
+    .cuContainerWrap {
+        width: 85%;
+    }
+
+    .cuFeatureCard {
+        width: 34%;
+    }
+
+    .cuDropDown {
+        width: 80%;
+    }
+
+    .cuHeroContainer {
+        width: 90%;
+    }
+
+}
+
+/* ------------------------------- */
+@media only screen and (width<=1300px) {
+    .cuContainer {
+        padding: 25px 0;
+    }
+
+    .cuContainerWrap {
+        width: 90%;
+    }
+
+    .cuDropDown {
+        width: 90%;
+    }
+
+    .cu_grid_item {
+        width: 40%;
+    }
+
+    .cuHero {
+        width: 50%;
+    }
+
+    .cuHeroContainer {
+        padding: 20px;
+    }
+
+    .appDisplayVideos video {
+        width: 60%;
+    }
+
+    .appDisplayVideos h1 {
+        font-size: 40px;
+    }
+
+    .headerWrap {
+        padding: 0 10px;
+    }
+
+    .headerWrap {
+        padding: 0 10px;
+    }
+
+    .cuFooterSection {
+        padding: 0 10px;
+    }
+}
+
+/* ------------------------------- */
+@media only screen and (width<=1200px) {
+    .cuAppLeft>h2 {
+        font-size: 30px;
+    }
+
+    .footerPartOne {
+        background-image: url(./media/logo_bg_2.png);
+        background-position: right center;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 0 0 0 25px;
+    }
+
+    .footerTagLine h1 {
+        font-size: 40px;
+    }
+}
+
+/* ------------------------------- */
+@media only screen and (width<=1150px) {
+    .cuContainerWrap {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .cuButtonsNavigation {
+        width: 35%;
+    }
+
+
+    .cuDropDown {
+        width: 100%;
+    }
+
+    .cuHeroLeft {
+        padding: 40px 0;
+    }
+
+    .cuImageLayout {
+        flex-wrap: wrap;
+    }
+
+    .appDisplay {
+        padding: 50px 0 0 0;
+    }
+
+    .appDisplayVideos h1 {
+        font-size: 45px;
+    }
+
+    .cuImageLayout {
+        width: 90%;
+    }
+
+    .cuImageLayout img {
+        padding: 10px 0;
+    }
+
+    .cuBuiltTeams {
+        padding: 50px 0;
+    }
+
+    .headerWrap {
+        padding: 0 10px;
+    }
+
+    .footerPartOne {
+        margin: auto;
+        width: 95%;
+    }
+
+    .cuFooterSection {
+        padding: 0 10px;
+        background: linear-gradient(50deg, #5c8cfb, #8330fe, #e710ea, #ce337e, rgb(255, 143, 24));
+    }
+
+    .cuFooter {
+        padding: 0;
+    }
+
+    .footerEndCol {
+        padding: 0 10px;
+    }
+}
+
+/* ------------------------------- */
+@media only screen and (width<=1000px) {
+    .cuNavbar {
+        justify-content: end;
+        width: 80%;
+    }
+
+    .cuNavList {
+        display: none;
+    }
+
+    .cuSalesLink {
+        display: none;
+    }
+
+    .cuDropDownMenu {
+        display: inline-block;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    .cuButtonsNavigation {
+        width: 200px;
+    }
+
+
+    .cuProductsDropdown {
+        display: none;
+    }
+
+    .cuMobileMenu {
+        display: flex;
+    }
+
+    .cuHeroContainer {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        height: auto;
+    }
+
+    .cuHero {
+        width: 100%;
+    }
+
+    .cuInput {
+        width: 50%;
+        height: 7vh;
+    }
+
+    .cuAppDetail {
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .cuAppLeft {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .appDisplay {
+        background-image: none;
+    }
+
+    .headerWrap {
+        padding: 0 10px;
+    }
+}
+
+/* ------------------------------- */
+@media only screen and (width<=880px) {
+    .cuContainer {
+        padding: 25px 10px;
+    }
+
+    .cuAppDetail {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px 0px;
+
+    }
+
+    .cuAppLeft {
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .cuAppRight {
+        width: 90%;
+    }
+
+    .cuDetailList ul li .btn {
+        font-size: 15px;
+    }
+
+    .cuDetailList ul li {
+        padding: 5px 20px;
+    }
+
+    .appImg {
+        display: block;
+    }
+
+    .cuAppVideo {
+        display: none;
+    }
+
+    .appImage {
+        display: block;
+    }
+
+    .appDisplayVideos {
+        padding: 20px 0px;
+    }
+
+    .appDisplayVideos video {
+        display: none;
+    }
+
+    .appDisplayVideos h1 {
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .appDisplayheader ul li button {
+        font-size: 15px;
+    }
+
+    .contentImg {
+        display: block;
+    }
+
+    .cuAppRight .contentVideo {
+        display: none;
+    }
+
+    .headerWrap {
+        padding: 0 10px;
+    }
+
+    .tagline h1 {
+        font-size: 35px;
+    }
+
+    .cuBuiltTeams {
+        padding: 40px 10px 10px 10px;
+    }
+
+    .cuBuiltTeams .teamInfo {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .cuBuiltTeams .info {
+        width: 90%;
+
+    }
+
+    .cuBuiltTeams .info {
+        padding: 20px 0;
+    }
+
+    .cuBuiltTeams .teamInfo .teamInfoText {
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .cuBuiltTeams .teamInfo .teamData {
+        width: 90%;
+    }
+
+    .cuBuiltTeams .teamHeading p {
+        padding: 20px;
+        margin: auto;
+        font-size: 40px;
+    }
+
+    .cuReview {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuReview .reviewText {
+        width: 80%;
+        gap: 20px;
+    }
+
+    .cuReview .reviewText .personName {
+        padding: 10px 0;
+    }
+
+    .cuReview .personPic {
+        width: 60%;
+        background-size: contain;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuReview .personPic button {
+        margin-top: -50px;
+    }
+
+    .cuCustomerSupport {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cuCustomerSupport .customerSupportText {
+        width: 80%;
+    }
+
+    .cuCustomerSupport .customerSupportImage {
+        width: 90%;
+    }
+
+
+
+
+
+    .cuFooterSection {
+        padding: 0 10px 20px 10px;
+    }
+
+    .footerLink span {
+        padding: 0 10px;
+    }
+
+    .footerLink {
+        display: flex;
+        width: 95%;
+        color: white;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .footerPartThree {
+        flex-wrap: wrap;
+        padding: 0 40px;
+    }
+
+    .cuFooter {
+        padding: 0;
+    }
+
+}
+
+/* ------------------------------- */
+@media (width<=1000px) and (orientation: landscape) {
+    .appDisplayheader ul {
+        gap: 20px;
+    }
+
+    .cuMobileMenu {
+        height: 300px;
+        padding: 10px 20px;
+        overflow-y: auto;
+    }
+
+    .cuMobileMenu ul {
+        height: 200px;
+    }
+
+    .mobNavBtns .cuMobSignup {
+        background: rgb(226, 99, 120);
+        color: white;
+    }
+
+    .mobNavBtns {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+/* ------------------------------- */
+@media only screen and (width<=650px) {
+    .cuHeader {
+        height: 80px;
+    }
+
+    .cuButtonsNavigation {
+        width: 150px;
+    }
+
+    .fa-bars {
+        color: black;
+    }
+
+    .cuLogin {
+        display: none;
+    }
+
+    .cuSignUp {
+        background: rgb(182, 0, 182);
+        color: white;
+    }
+
+    .cuMainPart {
+        background: white;
+        padding: 20px 0 0 0;
+    }
+
+    .cuButtonsNavigation {
+        width: 100px;
+    }
+
+    .openBtn {
+        color: black;
+    }
+
+    .cuHeroRight {
+        display: none;
+    }
+
+    .cuHeroLeft {
+        gap: 0;
+    }
+
+    .cuStarted span {
+        display: none;
+    }
+
+    .cuAppHeading {
+        text-align: center;
+        font-size: 40px;
+        width: 90%;
+        margin: auto;
+        padding: 20px 0;
+    }
+
+    .cuHeroBtn {
+        justify-content: center;
+    }
+
+    .openBtn {
+        color: black;
+    }
+
+    .cuFeatureBtns {
+        display: none;
+    }
+
+    .cuContentLeft {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+
+    .cuContentLeft .contentBtns li {
+        width: 40%;
+    }
+
+    .cuCheckList {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .tagline {
+        display: none;
+    }
+
+    .cuEmailInput {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cuInput {
+        width: 75vw;
+    }
+
+    .cuHeroContainer {
+        align-items: center;
+        padding: 0;
+    }
+
+    .cuStarted {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cuGetStarted {
+        width: 85vw;
+    }
+
+    .cuReviews {
+        text-align: center;
+    }
+
+    .cuCompanyLogos {
+        justify-content: center;
+    }
+
+    .cuGraphicImage {
+        display: block;
+    }
+
+    .appImg {
+        display: block;
+    }
+
+    .cuAppContainer {
+        background: white;
+        border-radius: 1px;
+    }
+
+    .cuAppDetail {
+        background: rgb(253, 113, 175, 0.1);
+        padding: 30px 10px;
+        border-radius: 50px;
+    }
+
+    .cuDetailList .buttonList {
+        justify-content: start;
+        padding: 0;
+        width: 100%;
+    }
+
+
+    .cuDetailList .buttonList li {
+        padding: 10px 0;
+    }
+
+
+    .cuTeams {
+        background: rgba(119, 136, 153, 0.02);
+    }
+
+    .cuBuiltTeams .teamHeading .teamBtnList {
+        gap: 30px;
+    }
+
+    .appDisplay {
+        background: none;
+    }
+
+    .appDisplayheader {
+        background: white;
+        align-items: start;
+        justify-content: end;
+    }
+
+    .appDisplayheader ul li {
+        padding: 10px;
+    }
+
+    .appDisplayVideos {
+        background: rgb(124, 108, 236, 0.06);
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .appDisplayVideos h1 {
+        width: 90%;
+    }
+
+    .getStarted {
+        height: 70px;
+    }
+
+    .appDisplay {
+        border-radius: 1px;
+        padding: 0;
+        width: 100%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .getStarted3 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .getStarted3 .cuGetStarted3 {
+        padding: 20px 00px;
+        width: 100%;
+        border-radius: 15px;
+        background: rgb(77, 202, 250);
+        color: white;
+    }
+
+    .cuBuiltTeams .teamInfo .teamData {
+        align-items: start;
+    }
+
+    .cuBuiltTeams .teamInfo .teamData .info {
+        width: 100%;
+    }
+
+    .cuBuiltTeams .teamHeading p {
+        width: 80%;
+        font-size: 35px;
+    }
+
+    .cuReview {
+        padding: 0px 10px 20px 10px;
+    }
+
+    .cuReview .reviewText {
+        width: 90%;
+    }
+
+    .cuReview .reviewText .reviewLines {
+        font-size: 18px;
+        padding: 2px;
+        line-height: 30px;
+    }
+
+    .cuReview .personPic {
+        width: 90%;
+        background-size: contain;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuCustomerSupport .customerSupportText {
+        width: 90%;
+    }
+
+
+
+
+
+    .footerTagLine {
+        width: 70%;
+    }
+
+    .footerTagLine h1 {
+        font-size: 30px;
+    }
+
+    .cuContentDetail {
+        background: rgba(239, 251, 248);
+        border-radius: 50px 50px 0 0;
+    }
+
+    .headerWrap {
+        padding: 0 10px;
+    }
+
+    .footerPartOne {
+        width: 90%;
+        height: 350px;
+    }
+
+    .footerLink {
+        justify-content: start;
+    }
+
+    .footerPartThree {
+        gap: 5%;
+        margin: auto;
+        padding: 0 0 0 20px;
+        flex-wrap: wrap;
+
+    }
+
+    .footerEndCol {
+        width: 45%;
+        padding: 0;
+    }
+
+    .footerEnd {
+        flex-direction: column;
+        gap: 20px;
+        align-content: center;
+        padding: 30px 0;
+    }
+
+    .endOne {
+        text-align: center;
+    }
+
+    .cuDownloadLink img {
+        width: 130px;
+    }
+
+    .cuMobileMenu {
+        padding: 5px 20px;
+    }
+
+}
+
+/* --------------- */
+/* --------------- */
+/* --------------- */
+/* --------------- */
+/* --------------- */
+/* --------------- */
+/* --------------- */
+
+/* ------------------------------- */
