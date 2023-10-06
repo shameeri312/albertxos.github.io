@@ -42,24 +42,26 @@ hamburger()
 
 
 
+function renewPatch() {
+    if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+        console.info("This page is reloaded");
+        location.href = "index.html"
+    } else {
+        console.info("This page is not reloaded");
+    }
+}
+
+renewPatch()
+
 // function to Change Background of header on scroll
 function handleScroll() {
     let btn = document.querySelector(".moveup")
     if (window.scrollY > 250) {
+        console.log("ok");
+
         btn.style.opacity = "1"
     } else {
         btn.style.opacity = "0"
     }
 }
-window.addEventListener('scroll', handleScroll());
-
-if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
-    console.info("This page is reloaded");
-    location.href = "index.html"
-} else {
-    console.info("This page is not reloaded");
-}
-// function closeIt() {
-// }
-// window.onbeforeunload = closeIt();
-
+window.addEventListener('scroll', handleScroll);
